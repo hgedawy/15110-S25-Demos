@@ -154,7 +154,7 @@ print('He said, "What\'s there?" ') # SyntaxError: Invalid syntax
 ### Types of space chars   
 print(" Hello!\nThis goes on a new line ")  
 print(" Hello!\t\tThis gets two tab spaces ") 
-#print("C:\Python64\Lib")# \\ : allows writing file/folder paths in windows
+print("C:\\Python64\\Lib")# \\ : allows writing file/folder paths in windows
 print(" This rings a bell\a") #this rings a bell!
 
 
