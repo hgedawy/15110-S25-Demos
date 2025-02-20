@@ -5,23 +5,15 @@ Created on Sun Feb 16 16:45:46 2025
 @author: hkg
 """
 
-################### Destructive and Non-Destructive RemoveEvens
-
-def nondestructiveRemoveEvens(L):
-	return []
-
-def destructiveRemoveEvens(L):
-    return None #No Return
-            
 
 
+################### isPalendromic
 
-L = [54, 21, 42, 76, 33]
-assert(nondestructiveRemoveEvens(L) == [21, 33])
-
-destructiveRemoveEvens(L)
-assert(L == [21, 33]) #no returned value -L itself is changed
-
+def isPalendromic(L):
+    return L == L[::-1]
+    
+print("isPalendromic")
+print(isPalendromic([1,2,3,2,1]))
 
 
 ################### Frequently Asked Questions
@@ -29,14 +21,18 @@ assert(L == [21, 33]) #no returned value -L itself is changed
 def faq(L, n):
     return []
 
-print(faq([10, 40, 20, 10, 40, 10], 2))  # Output: [10, 40]
-print(faq([1, 4, 2, 1, 3], 2))           # Output: [1]
-print(faq([1, 1, 3, 5, 4, 6, 3, 4], 3))  # Output: []
+# print(faq([10, 40, 20, 10, 40, 10], 2))  # Output: [10, 40]
+# print(faq([1, 4, 2, 1, 3], 2))           # Output: [1]
+# print(faq([1, 1, 3, 5, 4, 6, 3, 4], 3))  # Output: []
 
 
 ################### Detective Watson
 def guilty(L):
-    return 42
+    
+    newL = sorted(L, reverse = True)
+    val = newL[1]
+    
+    return L.index(val) + 1
 
 print(guilty([3, 5, 2]))           # Output: 1
 print(guilty([1, 15, 3, 5, 2]))    # Output: 4
