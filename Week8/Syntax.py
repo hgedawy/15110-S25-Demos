@@ -118,7 +118,7 @@ x = average_global()
 print(x)
 
 
-###### Be Careful: when local and global variables have the same name
+###### Be Careful: when using global variables
 x = 10
 
 def f():
