@@ -15,13 +15,16 @@ Created on Sat Mar  12 16:20:24 2025
 
 print("\nendswith, startswith ============================")
 s = "crazy bar"
+print(s.endswith("bar"))
 
 #s.endswith(<suffix>, <start>, <end>): as above, but
     #the comparison is restricted to substring indicated by <start> and <end>
+print(s.endswith("bar", 0, 5))
 
 
 ###############s.startswith(<prefix>):
      #analogous to endswith(), checking if s begins with a given substring
+print(s.startswith("cr"))
 
 
 
@@ -31,11 +34,12 @@ s = "crazy bar"
 print("\ncount ============================")
 
 s = "moo ooh pooh"
-
+print(s.count("oo"))
 
 
 ###s.count(<sub>, <start>, <end>):  
     #searches in the s slice defined by <start> and <end>
+print(s.count("oo", 0,7))
 
 
 
@@ -45,24 +49,27 @@ s = "moo ooh pooh"
 print("\nfind ============================")
 
 s = "crazy bar bar"
-ibar= s.find ("bar")
+ibar= s.find("bar")
 istar= s.find("star")
-
+print(ibar)
+print(istar)
 
 
 
 ###s.find(<sub>, <start>, <end>): as above,
     #but the search is restricted to the substring indicated by <start> & <end>
-
+print(s.find("bar", 8, len(s)))
 
 
 ################s.rfind(<sub>):  searches s starting from the end (reversed)
     #such that it returns the highest index in s where the substring <sub> is found,
     #-1 is returned if the substring is not found
 
+print(s.rfind("bar"))
 
 ###s.rfind(<sub>, <start>, <end>): as above, but now the search is 
     #restricted to the substring indicated by <start> and <end>
+print(s.rfind("bar", 0, 8))
 
 
 
@@ -75,13 +82,14 @@ print("\nreplace ============================")
 
 s = "one step, two steps, three steps"
 s1= s.replace ("step", "stop") #capitalization matters
-
+print(s1)
 
 ##s.replace(<old>, <new>, <max>): as above, but now the number of replacements
     # is limited to the <max> value -- replaces only first n values
 s2= s.replace("step", "stop", 2)
+print(s2)
 
-
+print(s)
 
 
 ############################ String Formatting
@@ -93,9 +101,11 @@ print("\nformatting ============================")
 
 s= '  Hello  ' 
 s1= s.strip()
+print(s1)
 
 s='**Hello**'
 s2= s.strip('*')
+print(s2)
 
 
 
@@ -111,8 +121,11 @@ print("\ncharacter classification ============================")
 
 a = "hello1"
 b = "23"
-
-
+print(a.isalpha())
+print(a.isalnum())
+print(b.isdigit())
+print(a.islower())
+print(a.isupper())
 
 ############################ Case Change
 
@@ -122,11 +135,11 @@ print("\ncase change ============================")
 
 s = "1984 is a dystopian novel by English novelist George Orwell."
 sU = s.upper()
-
+print(sU)
 
 #s.lower(): returns a copy of s with all alphabetic chars converted to lowercase
 sl = s.lower()
-
+print(sl)
 
 
 

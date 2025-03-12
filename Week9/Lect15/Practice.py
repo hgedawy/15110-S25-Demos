@@ -24,18 +24,46 @@ print(ct2(s))
 
 
 def wordCanBeBuilt(s1, s2):
-    return False
+    for c in s2:
+        if not s1.count(c) >= s2.count(c):
+            return False
+    return True
 
 print(wordCanBeBuilt("water", "rate")) #"rater", "tear", "at"
 
 
 
+def leastFrequentCount(s):
+    lowF = s.count(s[0])
+    for c in s:
+        freq = s.count(c)
+        lowF = min(lowF, freq)
+    return lowF
+
+def lettersWithFreq(s, freq):
+    result = ""
+    for c in "abcdefghijklmnopqrstuvwxyz":
+        if s.count(c) == freq:
+            result += c
+    return result
     
 def leastFrequentLetters(s):
+    # Make lowercase
+    s = s.lower()
+    # Remove non-letters
+    newS = ""
+    for c in s:
+        if c.isalpha():
+            newS += c
+    # Find count of least frequent letter
+    lowFreqCount = leastFrequentCount(newS)
+    # Find letters with least frequent count
+    result = lettersWithFreq(newS, lowFreqCount)
     
-    return ""
+    return result
 
 print(leastFrequentLetters("aDq efQ? FB'daf!!!"))
+
 
 ############################ Notes
 
