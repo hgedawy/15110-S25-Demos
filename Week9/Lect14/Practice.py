@@ -26,27 +26,23 @@ def nonVowelCount(s):
     takes a string s and returns number of non-vowels inside s
     ignore case, A and a are both vowels
     """
-    return 42
+    vowels= "aeiouAEIOU"
+    
+    counter=0
+    for c in s:
+        if  c not in vowels:
+           counter+=1
+        
+    return counter
 
-#print(nonVowelCount("Hend"))
-
-
-
-def wordCanBeBuilt(s1, s2):
-    return False
-print(wordCanBeBuilt("water", "rate")) #"rater", "tear", "at"
-
-
-
-def leastFrequentLetters(s):
-    return ''
-
-# Example usage
-print(leastFrequentLetters("aDq efQ? FB'daf!!!"))  # Output should be "be"
+nonVowelCount("Hello")
 
 
 
-################### NOTES
+
+
+
+################### FROM NOTES
 
 def words(s):
     
