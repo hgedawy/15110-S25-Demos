@@ -63,7 +63,7 @@ print(len(d))
 print("\nCreating Empty Dict: ")
 d2 = {}
 ages = dict()
-
+print(ages)
 
 ############## Adding and Modifying Entries
 
@@ -72,33 +72,47 @@ print("\nAdding And Modifying Entries =====================: ")
 key= "Fatima"
 value= 20
 
-
+d2[key] = value
+print(d2)
 
 #if the key already exists, using same syntax will
     #Update value of the existing keys
-
+d['Jim'] = 30
+print(d)
 
 
 #Delete an existing item:
+del d["Jim"]
+print(d)
 
+#del d["Fatima"]
 
 ############### Getting Values
 
 print("\nGetting Values =====================: ")
 
+print(d["Paul"])
 
+#v = d["Fatima"]
+#print(v)
 
 ### FIX 
 
 #1) check first that it is there 
-
+if "Fatima" in d:
+    print(d["Fayima"])
     
 #2) Using get method
 # d.get(key, <value>)
     #value is the value to return if the specified key is not found in the dict
     #The value parameter is optional. If value is not passed,  None is returned.
 
+v = d.get("Fatima")
+print(v)
 
+
+v = d.get("Fatima", 1)
+print(v)
 
 ######### Membership Operator
 
@@ -106,7 +120,11 @@ print("\nMembership Operator =====================: ")
 
 
 #checks for keys by default
+if "Mary" in d.keys():
+    print("Mary is in keys")
 
+elif "Mary" in d.values():
+    print("it is in values")
 
     
 
@@ -118,20 +136,27 @@ phone_numbers = {'Ann': 5461, 'Paul': 5472, 'Mark': 3541, 'Liz': 2451}
 numbers = {1: 'r', 2: 'p', 3:'p', 4:'r', 5:'p', 6:'r'}
 print("\nGetting Values, Keys, items =====================: ")
 
-
+print(numbers.keys())
+print(phone_numbers.values())
+print(numbers.items())
 
 ######## Looping Through Dictionary
 
 print("\nLooping Through Keys, values, and pairs =====================: ")
 
 #over keys
+for k in d: # d.keys()
+    print("key: ", k)
 
 #over values
+for v in d.values():
+    print("v: ", v)
 
     
 #over all dictionary elements: 
     #pairs (key, value) as tuples
-
+for item in d:
+    print("(key, value): ", item[0], item[1] )
 
 
 
@@ -142,24 +167,21 @@ print("\nLooping Through Keys, values, and pairs =====================: ")
 
 print("\nKeys and Values Types =====================: ")
 
-# d[12] = 'New data value'
-# d['Jim'] = True
-# d['List data'] = [ [1,2,3], [4,5,6] ]
-# d[(2,3)] = 7.8
-# print(d)
+d[12] = 'New data value'
+d['Jim'] = True
+d['List data'] = [ [1,2,3], [4,5,6] ]
+d[(2,3)] = 7.8
+print(d)
 
 #Mutable data types for keys!
 #d[[2,3]] = 'Incorrect'
 #d[([1,3], 2)] = 'Incorrect'
 
 
+T = (1,2)
+d[T] = "Hello"
+print(d)
 
-######################### HASHING (SLIDES)
-
-
-
-###### Create an alias:
-    
-print("\nAliasing =====================: ")
-    
+T = T + (5,6)
+print(d)
 

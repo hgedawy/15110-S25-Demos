@@ -20,7 +20,19 @@ print(ct2({1:5, 0:2}, 0))
 
 
 def mostFrequent(L):
-    return 42
+    # Return most frequent element in L, 
+        #resolving ties arbitrarily.
+    maxValue = None
+    maxCount = 0
+    counts = dict()
+    for element in L:
+        count = 1 + counts.get(element, 0)
+        counts[element] = count
+        if (count > maxCount):
+            maxCount = count
+            maxValue = element
+    return maxValue
+
 
 def testMostFrequent():
     print("Testing mostFrequent()... ", end="")
