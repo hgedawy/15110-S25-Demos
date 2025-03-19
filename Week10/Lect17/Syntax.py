@@ -1,187 +1,213 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sat Mar 15 21:52:49 2025
+Created on Wed Mar 19 12:24:24 2025
 
 @author: hkg
 """
 
-############## Motivation
 
 
-### Familiar from Quiz6
-def calculate_grade_distribution_with_lists(grades):
-    unique_grades = []
-    grade_frequencies = []
-    
-    for grade in grades:
-        if grade in unique_grades:
-            index = unique_grades.index(grade)
-            grade_frequencies[index] += 1
-        else:
-            unique_grades.append(grade)
-            grade_frequencies.append(1)
-    
-    return unique_grades, grade_frequencies
+######################### Keys As Lists
 
-# Example usage:
-grades = [85, 90, 75, 85, 95, 90, 80, 85, 90]
-unique_grades, grade_frequencies =  calculate_grade_distribution_with_lists(grades)
-print(f"unique_grades: {unique_grades} ")
-print(f"grade_frequencies: {grade_frequencies} ")
-
-
-
-
-# dictionary maps grades to frequency..
-def calculate_grade_distribution_with_dict(grades):
-    grade_distribution = dict()
-    for grade in grades:
-        if grade in grade_distribution:
-            grade_distribution[grade] += 1
-        else:
-            grade_distribution[grade] = 1
-    return grade_distribution
-
-# Example usage:
-grades = [85, 90, 75, 85, 95, 90, 80, 85, 90]
-print(calculate_grade_distribution_with_dict(grades))
-
-   
-
-##### Dictionary data structure: non-scalar, mutable, not ordered (i.e. collection not sequence)
-#d = { key_1: value_1,  key_2: value_2,  key_3: value_3 } 
-#Dictionaries are associative data structures that store key-value pairs ..
-
-
-############### Number of Items
-d = {'John': 22, 'Jim': 20, 'Mary': 20, 'Paul': 29}
-print("Number of items: ")
-print(len(d))
-
-
-############### Creating empty dict
-print("\nCreating Empty Dict: ")
-d2 = {}
-ages = dict()
-print(ages)
-
-############## Adding and Modifying Entries
-
-print("\nAdding And Modifying Entries =====================: ")
-
-key= "Fatima"
-value= 20
-
-d2[key] = value
-print(d2)
-
-#if the key already exists, using same syntax will
-    #Update value of the existing keys
-d['Jim'] = 30
-print(d)
-
-
-#Delete an existing item:
-del d["Jim"]
-print(d)
-
-#del d["Fatima"]
-
-############### Getting Values
-
-print("\nGetting Values =====================: ")
-
-print(d["Paul"])
-
-#v = d["Fatima"]
-#print(v)
-
-### FIX 
-
-#1) check first that it is there 
-if "Fatima" in d:
-    print(d["Fayima"])
-    
-#2) Using get method
-# d.get(key, <value>)
-    #value is the value to return if the specified key is not found in the dict
-    #The value parameter is optional. If value is not passed,  None is returned.
-
-v = d.get("Fatima")
-print(v)
-
-
-v = d.get("Fatima", 1)
-print(v)
-
-######### Membership Operator
-
-print("\nMembership Operator =====================: ")
-
-
-#checks for keys by default
-if "Mary" in d.keys():
-    print("Mary is in keys")
-
-elif "Mary" in d.values():
-    print("it is in values")
-
-    
-
-
-
-######### Getting Values, Keys, items
-
+accounts = {'J. Smith': [35672, 'M', 'USA'], 'M. Saleh': [27623, 'M', 'Jordan'], 
+	         'F. Dupont': [17623, 'F', 'France'] } 
 phone_numbers = {'Ann': 5461, 'Paul': 5472, 'Mark': 3541, 'Liz': 2451}
 numbers = {1: 'r', 2: 'p', 3:'p', 4:'r', 5:'p', 6:'r'}
-print("\nGetting Values, Keys, items =====================: ")
 
-print(numbers.keys())
-print(phone_numbers.values())
-print(numbers.items())
 
-######## Looping Through Dictionary
 
-print("\nLooping Through Keys, values, and pairs =====================: ")
+#Typecasting a dictionary to a list returns the list of keys:
 
-#over keys
-for k in d: # d.keys()
-    print("key: ", k)
+### .keys() vs. list()
 
-#over values
-for v in d.values():
-    print("v: ", v)
+print("\n  Keys As Lists ------------------------------------------------")    
+keys_view = numbers.keys() #view object
+print("view object: ", keys_view)
+#samething for .values() and .items(): also return view objects
+
+keys_now_in_dict = list(numbers.keys()) #list object
+#same as list(numbers), creates a list of keys
+print("list object: ", keys_now_in_dict)
+    
+numbers[13] = 'p'
+print(numbers)
+print("Is 13 in dict? From static list copy:", (13 in keys_now_in_dict) )
+print("Is 13 in dict? From dynamic view:", (13 in keys_view) )
+print(keys_view)
+
+
+######################## Creation of dictionary variables
+
+
+######## : use a list of tuples + dict()
+
+print("\n  List <> Dict -----------------------------------")    
+
+print(list(numbers)) # list(numbers.keys())
+
+
+#Getting a list of tuples from dict: list(d.items())
+colors = {'Blue': 10, 'Red': 7, 'Green': 15, 'Black': 12}
+print(list(colors.items()))
+
+
+word_list = [ ('Hello', 5), ('this', 4), ('is', 2), ('a', 1), ('list', 4) ]
+print(dict(word_list))
+
+
+Accounts_by_country = dict( [ ('USA', [35672, 'M', 'J. Smith']), 
+               	               ('Jordan', [27623, 'M', 'M. Saleh']), 
+                                  ('France', [17623, 'F', 'F. Dupont']) ] )
+
+print(Accounts_by_country)
+
+
+
+
+
+
+####### zip(key_list, value_list)
+
+##Use two lists of the same length, one containing the keys and pair them up 
+    #into a list of tuples
+print("\n From Two seperate lists: -------------------------")    
+
+
+list_of_keys = [4, 1, 3, 2, 6, 5]
+list_of_values = ['r', 'r', 'p', 'p', 'r', 'p' ]
+
+ml= list(zip(list_of_keys, list_of_values))
+print(dict(ml))
+
+
+
+######use list of keys with default values
+
+print("\n with default values: -------------------------")    
+
+list_of_words = ["This", "is", "a", "list", "of", "key", "strings"]
+dict_of_words = dict.fromkeys(list_of_words, 0) 
+print(dict_of_words)
+
+primes = [2, 3, 5, 7, 11, 13]
+dict_of_primes = dict.fromkeys(primes, 'p')
+print(dict_of_primes)
 
     
-#over all dictionary elements: 
-    #pairs (key, value) as tuples
-for item in d:
-    print("(key, value): ", item[0], item[1] )
+      
+    
+######################## Creating Copies & Aliasing
+
+d1 = {"A": 1, "B":2} # all immutable values
+d2 = {"A": 1, "B":2, "C":[3,4]} # one mutable value
+    
+print("\nCreating Copies & Aliases -----------------------------------------") 
+
+y = d1
+print(id(y) == id(d1))
+
+#when no mutable values
+y2 = d1.copy()
+print(id(y2) == id(d1))
+y2["A"] = 5
+print(d1)
+
+y3 = d2.copy() # shallow
+print(id(y3) == id(d2))
+print(id(d2["C"]) == id(y3["C"]))
+
+#needed when one+ value is mutable
+import copy
+y4 = copy.deepcopy(d2)
+print(id(y4) == id(d2))
+print(id(d2["C"]) == id(y4["C"]))
+
+####################### Arithmatic Operators
+#==  Equality operator: check if two dicts have the same values 
+print("\nArithmatic Operators -----------------------------------------") 
+print( d2 == y3)
 
 
-
-################# Keys and Values Types
-# A key can only contain immutable data types
-    #int, float, bool, str, tuple
-# A value can be of any type
-
-print("\nKeys and Values Types =====================: ")
-
-d[12] = 'New data value'
-d['Jim'] = True
-d['List data'] = [ [1,2,3], [4,5,6] ]
-d[(2,3)] = 7.8
-print(d)
-
-#Mutable data types for keys!
-#d[[2,3]] = 'Incorrect'
-#d[([1,3], 2)] = 'Incorrect'
+#Other relational operators   >, >=, <, <=  do not apply to dictionary operands
+#Arithmetic operators such as +, - *, / do not apply to dictionary operands
 
 
-T = (1,2)
-d[T] = "Hello"
-print(d)
+####################### Useful operations on keys and values: 
 
-T = T + (5,6)
-print(d)
+print("\nUseful Operations on Keys&Values -----------------------------------") 
+numbers = {1: 'r', 2: 'p', 3:'p', 4:'r', 5:'p', 6:'r'}
+
+#### Sorted()
+
+#Get the sorted list of keys from the dictionary
+
+print(sorted(numbers)) #number.keys()
+
+#You can do the same for values and items 
+sorted_values = sorted(numbers.values()) 
+sorted_dict_list = sorted(numbers.items()) # sorted based on keys 
+print(sorted_values)
+print(sorted_dict_list)
+
+
+#### min(), max(),  sum()
+
+max_key_val = max(numbers)   
+min_key_val = min(numbers)    
+
+#same as
+#max_key_val = max(numbers.keys())     
+#min_key_val = min(numbers.keys())  
+ 
+print(max_key_val)
+print(min_key_val)
+
+# You can do the same for values
+max_values = max(numbers.values())   
+min_values = min(numbers.values())
+print(max_values)
+print(min_values)
+
+
+key_sum = sum(numbers)
+#same as: 
+#key_sum = sum(numbers.keys()) 
+
+print(key_sum)
+
+
+values_sum = sum(colors.values()) # sum(numbers.values())
+print(values_sum)
+
+
+######################## Other methods for accessing and modifying a dictionary: 
+    
+
+############# .pop()
+#Remove and return dictionary element associated to passed key
+    
+key = 11
+x = numbers.pop(key, None)
+if x != None:
+ 	print('Removed pair (', key, ':', x, ')')
+    
+# #Advantage over the use of  del and [] operators:
+key = 11
+# del numbers[key]
+
+
+############# .popitem()
+#Remove and return the last inserted dictionary element
+
+x = numbers.popitem()
+if len(numbers) > 0:
+    print('Removed the last inserted key-value pair (', x, ')')
+    print('New size of the dictionary:', len(numbers))
+
+
+############# .clear()
+#All elements are removed, no values are returned, after the call dict = {}
+numbers.clear()
+print(len(numbers))
+
 
