@@ -1,0 +1,4 @@
+Homer: Apu , Moe
+Flanders: Homer , Apu , Moe
+Apu: 
+Moe: Homer

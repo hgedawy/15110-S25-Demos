@@ -1,0 +1,1 @@
+New line: 0 3 5.5Another new line: 1 2 3

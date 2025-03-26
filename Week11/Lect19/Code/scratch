@@ -1,0 +1,7 @@
+
+
+def cubicBoxes(n1, n2):
+    v1 = n1 * (0.75 ** 3)
+    v2 = n2 * (1.5 ** 3)
+    return int(2 * (v1 + v2))
+

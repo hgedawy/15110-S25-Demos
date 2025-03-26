@@ -1,0 +1,3 @@
+cs.txt: Python is a programming language
+bio.txt: Python is a serpent in the python family
+myth.txt: Apollo killed a python serpent

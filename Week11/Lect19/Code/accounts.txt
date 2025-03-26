@@ -1,0 +1,5 @@
+John Smith    642876 M
+Adam Smith  787294 M
+Ann White.    889220  F
+Joan Black      627291  F
+Mary Brown  78979 F
