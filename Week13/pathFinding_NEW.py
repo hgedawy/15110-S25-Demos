@@ -39,10 +39,26 @@ nx.draw_networkx_edge_labels(G, pos, edge_labels=labels)
 
 
 # Finding Path - Example usage
+start_node = 'A'
+goal_node = 'F'
 
+dijkstra_result =  nx.dijkstra_path(G, start_node, goal_node)
+astar_result = nx.astar_path(G, start_node, goal_node)
+
+
+# Highlight the start and end nodes
+nx.draw_networkx_nodes(G, pos, nodelist=[start_node], node_size=500, node_color='green')
+nx.draw_networkx_nodes(G, pos, nodelist=[goal_node], node_size=500, node_color='red')
+    
+
+# Create path edges
+path = dijkstra_result
+
+path_edges = [(path[i], path[i+1]) for i in range(len(path)-1)]
+nx.draw_networkx_edges(G, pos, edgelist=path_edges, width=3, alpha=0.8, edge_color='blue')
         
 plt.show()
 
 
-#print(f"Dijkstra's shortest path from {start_node} to {goal_node}: {dijkstra_result}")
-#print(f"A* shortest path from {start_node} to {goal_node}: {astar_result}")
+print(f"Dijkstra's shortest path from {start_node} to {goal_node}: {dijkstra_result}")
+print(f"A* shortest path from {start_node} to {goal_node}: {astar_result}")

@@ -1,8 +1,7 @@
 file = open("florida-foodweb.csv")
 
 foodweb = {}
-all_animals = [] # keeping a list of all animals
-
+all_animals = []
 # A ---> B
 # A is a prey, B is the predator
 for line in file:
@@ -27,18 +26,24 @@ foodweb["Anchovy"]
 
 
 def predatorsOf(animal, fw):
-    return []
+    if animal in fw:
+        return fw[animal]
+    else:
+        return []
     
-print(predatorsOf("Anchovy", foodweb))
-#print(predatorsOf("Sharks", foodweb))
+predatorsOf("Anchovy", foodweb)
+#predatorsOf("Sharks", foodweb)
 
 
 
 def preysOf(animal, fw):
     preys = []
+    for a in fw:
+        if animal in fw[a]:
+            preys += [a]
     return preys
 
-print(preysOf("Sharks", foodweb))
+preysOf("Sharks", foodweb)
 
 
 # plant --> goat --> wolf
@@ -48,10 +53,18 @@ print(preysOf("Sharks", foodweb))
 
 def producers(fw):
     prod = []
+    for possible_producer in fw:
+        isProducer = True
+        for a in fw:
+            if possible_producer in fw[a]:
+                isProducer = False
+
+        if isProducer:
+            prod += [possible_producer]
             
     return prod
 
-print(producers(foodweb))
+producers(foodweb)
 
 
 # plant --> goat --> wolf
@@ -61,6 +74,9 @@ print(producers(foodweb))
 
 def apexPredators(fw, aa):
     ap = []
+    for a in aa:
+        if a not in fw:
+            ap += [a]
     return ap
     
-print(apexPredators(foodweb, all_animals))
+apexPredators(foodweb, all_animals)

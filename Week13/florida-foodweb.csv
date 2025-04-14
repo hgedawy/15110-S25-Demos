@@ -1,0 +1,1944 @@
+# Directed graph: Florida-bay.txt
+# Florida bay food web: nodes are compartments (organisms and species) and edges are energy flow
+# (edge from i to j means that carbon is transferred from i to j)
+# Nodes: 128 Edges: 2106
+# Downloaded from: https://snap.stanford.edu/data/Florida-bay.html
+# FromNodeId ToNodeId
+DOC,Free Bacteria
+2um Spherical Phytoplankt,Water Flagellates
+Synedococcus,Water Flagellates
+Small Diatoms (<20um),Water Flagellates
+Free Bacteria,Water Flagellates
+Water POC,Water Flagellates
+2um Spherical Phytoplankt,Water Cilitaes
+Synedococcus,Water Cilitaes
+Small Diatoms (<20um),Water Cilitaes
+Big Diatoms (>20um),Water Cilitaes
+Dinoflagellates,Water Cilitaes
+Other Phytoplankton,Water Cilitaes
+Free Bacteria,Water Cilitaes
+Water Flagellates,Water Cilitaes
+Water POC,Water Cilitaes
+2um Spherical Phytoplankt,Acartia Tonsa
+Synedococcus,Acartia Tonsa
+Oscillatoria,Acartia Tonsa
+Small Diatoms (<20um),Acartia Tonsa
+Big Diatoms (>20um),Acartia Tonsa
+Dinoflagellates,Acartia Tonsa
+Other Phytoplankton,Acartia Tonsa
+Free Bacteria,Acartia Tonsa
+Water Flagellates,Acartia Tonsa
+Water Cilitaes,Acartia Tonsa
+Water POC,Acartia Tonsa
+2um Spherical Phytoplankt,Oithona nana
+Synedococcus,Oithona nana
+Oscillatoria,Oithona nana
+Small Diatoms (<20um),Oithona nana
+Big Diatoms (>20um),Oithona nana
+Dinoflagellates,Oithona nana
+Other Phytoplankton,Oithona nana
+Free Bacteria,Oithona nana
+Water Flagellates,Oithona nana
+Water Cilitaes,Oithona nana
+Water POC,Oithona nana
+2um Spherical Phytoplankt,Paracalanus
+Synedococcus,Paracalanus
+Oscillatoria,Paracalanus
+Small Diatoms (<20um),Paracalanus
+Big Diatoms (>20um),Paracalanus
+Dinoflagellates,Paracalanus
+Other Phytoplankton,Paracalanus
+Free Bacteria,Paracalanus
+Water Flagellates,Paracalanus
+Water Cilitaes,Paracalanus
+Water POC,Paracalanus
+2um Spherical Phytoplankt,Other Copepoda
+Synedococcus,Other Copepoda
+Small Diatoms (<20um),Other Copepoda
+Free Bacteria,Other Copepoda
+Water Flagellates,Other Copepoda
+Water POC,Other Copepoda
+Dinoflagellates,Meroplankton
+Acartia Tonsa,Meroplankton
+Oithona nana,Meroplankton
+Paracalanus,Meroplankton
+Other Copepoda,Meroplankton
+Other Zooplankton,Meroplankton
+Water POC,Meroplankton
+2um Spherical Phytoplankt,Other Zooplankton
+Synedococcus,Other Zooplankton
+Oscillatoria,Other Zooplankton
+Small Diatoms (<20um),Other Zooplankton
+Big Diatoms (>20um),Other Zooplankton
+Dinoflagellates,Other Zooplankton
+Other Phytoplankton,Other Zooplankton
+Free Bacteria,Other Zooplankton
+Water Flagellates,Other Zooplankton
+Water Cilitaes,Other Zooplankton
+Water POC,Other Zooplankton
+Benthic Phytoplankton,Benthic Flagellates
+Benthic POC,Benthic Flagellates
+Benthic Phytoplankton,Benthic Ciliates
+Benthic Flagellates,Benthic Ciliates
+Benthic POC,Benthic Ciliates
+Benthic Phytoplankton,Meiofauna
+Benthic Flagellates,Meiofauna
+Benthic Ciliates,Meiofauna
+Benthic POC,Meiofauna
+2um Spherical Phytoplankt,Sponges
+Synedococcus,Sponges
+Small Diatoms (<20um),Sponges
+Big Diatoms (>20um),Sponges
+Dinoflagellates,Sponges
+Other Phytoplankton,Sponges
+Free Bacteria,Sponges
+Water Flagellates,Sponges
+Water Cilitaes,Sponges
+Water POC,Sponges
+Small Diatoms (<20um),Coral
+Big Diatoms (>20um),Coral
+Acartia Tonsa,Coral
+Oithona nana,Coral
+Paracalanus,Coral
+Other Copepoda,Coral
+Other Zooplankton,Coral
+Acartia Tonsa,Other Cnidaridae
+Oithona nana,Other Cnidaridae
+Paracalanus,Other Cnidaridae
+Other Copepoda,Other Cnidaridae
+Meroplankton,Other Cnidaridae
+Other Zooplankton,Other Cnidaridae
+Benthic Crustaceans,Other Cnidaridae
+Detritivorous Amphipods,Other Cnidaridae
+Herbivorous Amphipods,Other Cnidaridae
+Isopods,Other Cnidaridae
+Herbivorous Shrimp,Other Cnidaridae
+Predatory Shrimp,Other Cnidaridae
+Thor Floridanus,Other Cnidaridae
+Other Killifish,Other Cnidaridae
+Goldspotted killifish,Other Cnidaridae
+Blennies,Other Cnidaridae
+Clown Goby,Other Cnidaridae
+2um Spherical Phytoplankt,Echinoderma
+Synedococcus,Echinoderma
+Oscillatoria,Echinoderma
+Other Phytoplankton,Echinoderma
+Benthic Phytoplankton,Echinoderma
+Epiphytes,Echinoderma
+Acartia Tonsa,Echinoderma
+Oithona nana,Echinoderma
+Paracalanus,Echinoderma
+Other Copepoda,Echinoderma
+Other Zooplankton,Echinoderma
+Meiofauna,Echinoderma
+Sponges,Echinoderma
+Other Cnidaridae,Echinoderma
+Bivalves,Echinoderma
+Detritivorous Gastropods,Echinoderma
+Benthic Crustaceans,Echinoderma
+Detritivorous Amphipods,Echinoderma
+Herbivorous Amphipods,Echinoderma
+Isopods,Echinoderma
+Benthic POC,Echinoderma
+2um Spherical Phytoplankt,Bivalves
+Synedococcus,Bivalves
+Small Diatoms (<20um),Bivalves
+Big Diatoms (>20um),Bivalves
+Dinoflagellates,Bivalves
+Other Phytoplankton,Bivalves
+Free Bacteria,Bivalves
+Water Flagellates,Bivalves
+Water Cilitaes,Bivalves
+Water POC,Bivalves
+Synedococcus,Detritivorous Gastropods
+Benthic Phytoplankton,Detritivorous Gastropods
+Benthic Flagellates,Detritivorous Gastropods
+Benthic Ciliates,Detritivorous Gastropods
+Meiofauna,Detritivorous Gastropods
+Benthic POC,Detritivorous Gastropods
+Epiphytes,Epiphytic Gastropods
+Bivalves,Predatory Gastropods
+Detritivorous Gastropods,Predatory Gastropods
+Catfish,Predatory Gastropods
+Silverside,Predatory Gastropods
+Flatfish,Predatory Gastropods
+Synedococcus,Detritivorous Polychaetes
+Benthic Phytoplankton,Detritivorous Polychaetes
+Benthic Flagellates,Detritivorous Polychaetes
+Benthic Ciliates,Detritivorous Polychaetes
+Benthic POC,Detritivorous Polychaetes
+Benthic Phytoplankton,Predatory Polychaetes
+Benthic Flagellates,Predatory Polychaetes
+Benthic Ciliates,Predatory Polychaetes
+Meiofauna,Predatory Polychaetes
+Echinoderma,Predatory Polychaetes
+Bivalves,Predatory Polychaetes
+Detritivorous Polychaetes,Predatory Polychaetes
+Suspension Feeding Polych,Predatory Polychaetes
+Macrobenthos,Predatory Polychaetes
+Benthic Crustaceans,Predatory Polychaetes
+Detritivorous Amphipods,Predatory Polychaetes
+Herbivorous Amphipods,Predatory Polychaetes
+Isopods,Predatory Polychaetes
+Benthic POC,Predatory Polychaetes
+2um Spherical Phytoplankt,Suspension Feeding Polych
+Synedococcus,Suspension Feeding Polych
+Small Diatoms (<20um),Suspension Feeding Polych
+Big Diatoms (>20um),Suspension Feeding Polych
+Dinoflagellates,Suspension Feeding Polych
+Other Phytoplankton,Suspension Feeding Polych
+Water Flagellates,Suspension Feeding Polych
+Water Cilitaes,Suspension Feeding Polych
+Other Zooplankton,Suspension Feeding Polych
+Benthic Flagellates,Suspension Feeding Polych
+Benthic Ciliates,Suspension Feeding Polych
+Water POC,Suspension Feeding Polych
+Synedococcus,Macrobenthos
+Benthic Phytoplankton,Macrobenthos
+Benthic Flagellates,Macrobenthos
+Benthic Ciliates,Macrobenthos
+Meiofauna,Macrobenthos
+Benthic POC,Macrobenthos
+Synedococcus,Benthic Crustaceans
+Benthic Phytoplankton,Benthic Crustaceans
+Benthic Flagellates,Benthic Crustaceans
+Benthic Ciliates,Benthic Crustaceans
+Benthic POC,Benthic Crustaceans
+Synedococcus,Detritivorous Amphipods
+Benthic Phytoplankton,Detritivorous Amphipods
+Benthic Flagellates,Detritivorous Amphipods
+Benthic Ciliates,Detritivorous Amphipods
+Benthic POC,Detritivorous Amphipods
+Benthic Phytoplankton,Herbivorous Amphipods
+Thalassia,Herbivorous Amphipods
+Halodule,Herbivorous Amphipods
+Syringodium,Herbivorous Amphipods
+Epiphytes,Herbivorous Amphipods
+Benthic POC,Herbivorous Amphipods
+Thalassia,Isopods
+Halodule,Isopods
+Syringodium,Isopods
+Epiphytes,Isopods
+Benthic Phytoplankton,Herbivorous Shrimp
+Epiphytes,Herbivorous Shrimp
+Thalassia,Predatory Shrimp
+Halodule,Predatory Shrimp
+Syringodium,Predatory Shrimp
+Epiphytes,Predatory Shrimp
+Meiofauna,Predatory Shrimp
+Bivalves,Predatory Shrimp
+Detritivorous Gastropods,Predatory Shrimp
+Detritivorous Polychaetes,Predatory Shrimp
+Predatory Polychaetes,Predatory Shrimp
+Detritivorous Amphipods,Predatory Shrimp
+Herbivorous Amphipods,Predatory Shrimp
+Herbivorous Shrimp,Predatory Shrimp
+Omnivorous Crabs,Predatory Shrimp
+Benthic POC,Predatory Shrimp
+Synedococcus,Pink Shrimp
+Big Diatoms (>20um),Pink Shrimp
+Benthic Phytoplankton,Pink Shrimp
+Thalassia,Pink Shrimp
+Halodule,Pink Shrimp
+Syringodium,Pink Shrimp
+Epiphytes,Pink Shrimp
+Acartia Tonsa,Pink Shrimp
+Oithona nana,Pink Shrimp
+Paracalanus,Pink Shrimp
+Other Copepoda,Pink Shrimp
+Other Zooplankton,Pink Shrimp
+Meiofauna,Pink Shrimp
+Macrobenthos,Pink Shrimp
+Benthic Crustaceans,Pink Shrimp
+Benthic POC,Pink Shrimp
+Epiphytes,Thor Floridanus
+Meiofauna,Lobster
+Echinoderma,Lobster
+Detritivorous Gastropods,Lobster
+Macrobenthos,Lobster
+Benthic Crustaceans,Lobster
+Detritivorous Amphipods,Lobster
+Herbivorous Amphipods,Lobster
+Isopods,Lobster
+Synedococcus,Detritivorous Crabs
+Benthic Phytoplankton,Detritivorous Crabs
+Meiofauna,Detritivorous Crabs
+Benthic POC,Detritivorous Crabs
+Thalassia,Omnivorous Crabs
+Halodule,Omnivorous Crabs
+Syringodium,Omnivorous Crabs
+Epiphytes,Omnivorous Crabs
+Bivalves,Omnivorous Crabs
+Detritivorous Polychaetes,Omnivorous Crabs
+Predatory Polychaetes,Omnivorous Crabs
+Suspension Feeding Polych,Omnivorous Crabs
+Benthic Crustaceans,Omnivorous Crabs
+Detritivorous Amphipods,Omnivorous Crabs
+Herbivorous Amphipods,Omnivorous Crabs
+Benthic POC,Omnivorous Crabs
+Bivalves,Predatory Crabs
+Herbivorous Shrimp,Predatory Crabs
+Predatory Shrimp,Predatory Crabs
+Detritivorous Crabs,Predatory Crabs
+Omnivorous Crabs,Predatory Crabs
+Benthic POC,Predatory Crabs
+Bivalves,Callinectus sapidus
+Herbivorous Shrimp,Callinectus sapidus
+Predatory Shrimp,Callinectus sapidus
+Detritivorous Crabs,Callinectus sapidus
+Omnivorous Crabs,Callinectus sapidus
+Benthic POC,Callinectus sapidus
+Bivalves,Stone Crab
+Detritivorous Gastropods,Stone Crab
+Epiphytic Gastropods,Stone Crab
+Predatory Gastropods,Stone Crab
+Detritivorous Amphipods,Stone Crab
+Lobster,Stone Crab
+Omnivorous Crabs,Stone Crab
+Bivalves,Sharks
+Detritivorous Gastropods,Sharks
+Epiphytic Gastropods,Sharks
+Predatory Gastropods,Sharks
+Predatory Shrimp,Sharks
+Pink Shrimp,Sharks
+Lobster,Sharks
+Detritivorous Crabs,Sharks
+Omnivorous Crabs,Sharks
+Predatory Crabs,Sharks
+Callinectus sapidus,Sharks
+Stone Crab,Sharks
+Sardines,Sharks
+Anchovy,Sharks
+Bay Anchovy,Sharks
+Catfish,Sharks
+Eels,Sharks
+Toadfish,Sharks
+Brotalus,Sharks
+Other Killifish,Sharks
+Goldspotted killifish,Sharks
+Rainwater killifish,Sharks
+Mojarra,Sharks
+Grunt,Sharks
+Pinfish,Sharks
+Mullet,Sharks
+Blennies,Sharks
+Other Demersal Fishes,Sharks
+Bivalves,Rays
+Detritivorous Gastropods,Rays
+Epiphytic Gastropods,Rays
+Predatory Gastropods,Rays
+Detritivorous Polychaetes,Rays
+Predatory Polychaetes,Rays
+Suspension Feeding Polych,Rays
+Macrobenthos,Rays
+Benthic Crustaceans,Rays
+Predatory Shrimp,Rays
+Pink Shrimp,Rays
+Lobster,Rays
+Detritivorous Crabs,Rays
+Omnivorous Crabs,Rays
+Predatory Crabs,Rays
+Callinectus sapidus,Rays
+Lobster,Tarpon
+Detritivorous Crabs,Tarpon
+Omnivorous Crabs,Tarpon
+Predatory Crabs,Tarpon
+Callinectus sapidus,Tarpon
+Stone Crab,Tarpon
+Sardines,Tarpon
+Anchovy,Tarpon
+Bay Anchovy,Tarpon
+Catfish,Tarpon
+Other Killifish,Tarpon
+Goldspotted killifish,Tarpon
+Rainwater killifish,Tarpon
+Silverside,Tarpon
+Other Horsefish,Tarpon
+Gulf Pipefish,Tarpon
+Dwarf Seahorse,Tarpon
+Other Snapper,Tarpon
+Mojarra,Tarpon
+Grunt,Tarpon
+Porgy,Tarpon
+Pinfish,Tarpon
+Scianids,Tarpon
+Parrotfish,Tarpon
+Mullet,Tarpon
+Flatfish,Tarpon
+Filefishes,Tarpon
+Other Pelagic Fishes,Tarpon
+Other Demersal Fishes,Tarpon
+Bivalves,Bonefish
+Detritivorous Gastropods,Bonefish
+Epiphytic Gastropods,Bonefish
+Predatory Gastropods,Bonefish
+Detritivorous Polychaetes,Bonefish
+Predatory Polychaetes,Bonefish
+Suspension Feeding Polych,Bonefish
+Macrobenthos,Bonefish
+Benthic Crustaceans,Bonefish
+Isopods,Bonefish
+Herbivorous Shrimp,Bonefish
+Predatory Shrimp,Bonefish
+Pink Shrimp,Bonefish
+Thor Floridanus,Bonefish
+Lobster,Bonefish
+Detritivorous Crabs,Bonefish
+Omnivorous Crabs,Bonefish
+Callinectus sapidus,Bonefish
+Eels,Bonefish
+Toadfish,Bonefish
+Brotalus,Bonefish
+Blennies,Bonefish
+Code Goby,Bonefish
+Clown Goby,Bonefish
+Acartia Tonsa,Sardines
+Oithona nana,Sardines
+Paracalanus,Sardines
+Other Copepoda,Sardines
+Meroplankton,Sardines
+Other Zooplankton,Sardines
+Sponges,Sardines
+Bivalves,Sardines
+Detritivorous Gastropods,Sardines
+Epiphytic Gastropods,Sardines
+Predatory Gastropods,Sardines
+Macrobenthos,Sardines
+Benthic Crustaceans,Sardines
+Detritivorous Amphipods,Sardines
+Herbivorous Amphipods,Sardines
+Isopods,Sardines
+Herbivorous Shrimp,Sardines
+Predatory Shrimp,Sardines
+Pink Shrimp,Sardines
+Thor Floridanus,Sardines
+Acartia Tonsa,Anchovy
+Oithona nana,Anchovy
+Paracalanus,Anchovy
+Other Copepoda,Anchovy
+Meroplankton,Anchovy
+Other Zooplankton,Anchovy
+Meiofauna,Anchovy
+Bivalves,Anchovy
+Detritivorous Gastropods,Anchovy
+Epiphytic Gastropods,Anchovy
+Predatory Gastropods,Anchovy
+Macrobenthos,Anchovy
+Benthic Crustaceans,Anchovy
+Detritivorous Amphipods,Anchovy
+Herbivorous Amphipods,Anchovy
+Isopods,Anchovy
+Herbivorous Shrimp,Anchovy
+Predatory Shrimp,Anchovy
+Pink Shrimp,Anchovy
+Thor Floridanus,Anchovy
+Acartia Tonsa,Bay Anchovy
+Oithona nana,Bay Anchovy
+Paracalanus,Bay Anchovy
+Other Copepoda,Bay Anchovy
+Meroplankton,Bay Anchovy
+Other Zooplankton,Bay Anchovy
+Detritivorous Amphipods,Bay Anchovy
+Herbivorous Amphipods,Bay Anchovy
+Isopods,Bay Anchovy
+Herbivorous Shrimp,Bay Anchovy
+Predatory Shrimp,Bay Anchovy
+Pink Shrimp,Bay Anchovy
+Thor Floridanus,Bay Anchovy
+Herbivorous Shrimp,Lizardfish
+Predatory Shrimp,Lizardfish
+Pink Shrimp,Lizardfish
+Thor Floridanus,Lizardfish
+Detritivorous Crabs,Lizardfish
+Omnivorous Crabs,Lizardfish
+Predatory Crabs,Lizardfish
+Callinectus sapidus,Lizardfish
+Bay Anchovy,Lizardfish
+Eels,Lizardfish
+Toadfish,Lizardfish
+Goldspotted killifish,Lizardfish
+Blennies,Lizardfish
+Code Goby,Lizardfish
+Clown Goby,Lizardfish
+Flatfish,Lizardfish
+Other Demersal Fishes,Lizardfish
+Echinoderma,Catfish
+Bivalves,Catfish
+Detritivorous Gastropods,Catfish
+Epiphytic Gastropods,Catfish
+Predatory Gastropods,Catfish
+Detritivorous Polychaetes,Catfish
+Predatory Polychaetes,Catfish
+Suspension Feeding Polych,Catfish
+Macrobenthos,Catfish
+Benthic Crustaceans,Catfish
+Herbivorous Shrimp,Catfish
+Predatory Shrimp,Catfish
+Pink Shrimp,Catfish
+Lobster,Catfish
+Detritivorous Crabs,Catfish
+Omnivorous Crabs,Catfish
+Predatory Crabs,Catfish
+Callinectus sapidus,Catfish
+Stone Crab,Catfish
+Toadfish,Catfish
+Brotalus,Catfish
+Benthic POC,Catfish
+Detritivorous Polychaetes,Eels
+Predatory Polychaetes,Eels
+Suspension Feeding Polych,Eels
+Detritivorous Amphipods,Eels
+Herbivorous Amphipods,Eels
+Herbivorous Shrimp,Eels
+Predatory Shrimp,Eels
+Pink Shrimp,Eels
+Detritivorous Crabs,Eels
+Omnivorous Crabs,Eels
+Predatory Crabs,Eels
+Callinectus sapidus,Eels
+Bay Anchovy,Eels
+Lizardfish,Eels
+Goldspotted killifish,Eels
+Rainwater killifish,Eels
+Pinfish,Eels
+Code Goby,Eels
+Clown Goby,Eels
+Filefishes,Eels
+Other Demersal Fishes,Eels
+Herbivorous Shrimp,Toadfish
+Predatory Shrimp,Toadfish
+Pink Shrimp,Toadfish
+Thor Floridanus,Toadfish
+Detritivorous Crabs,Toadfish
+Omnivorous Crabs,Toadfish
+Predatory Crabs,Toadfish
+Callinectus sapidus,Toadfish
+Eels,Toadfish
+Goldspotted killifish,Toadfish
+Blennies,Toadfish
+Code Goby,Toadfish
+Clown Goby,Toadfish
+Herbivorous Shrimp,Brotalus
+Predatory Shrimp,Brotalus
+Pink Shrimp,Brotalus
+Thor Floridanus,Brotalus
+Detritivorous Crabs,Brotalus
+Omnivorous Crabs,Brotalus
+Predatory Crabs,Brotalus
+Callinectus sapidus,Brotalus
+Eels,Brotalus
+Goldspotted killifish,Brotalus
+Blennies,Brotalus
+Code Goby,Brotalus
+Clown Goby,Brotalus
+Thalassia,Halfbeaks
+Halodule,Halfbeaks
+Syringodium,Halfbeaks
+Epiphytes,Halfbeaks
+Acartia Tonsa,Halfbeaks
+Oithona nana,Halfbeaks
+Paracalanus,Halfbeaks
+Other Copepoda,Halfbeaks
+Meroplankton,Halfbeaks
+Other Zooplankton,Halfbeaks
+Detritivorous Amphipods,Needlefish
+Herbivorous Amphipods,Needlefish
+Herbivorous Shrimp,Needlefish
+Sardines,Needlefish
+Anchovy,Needlefish
+Bay Anchovy,Needlefish
+Halfbeaks,Needlefish
+Other Killifish,Needlefish
+Goldspotted killifish,Needlefish
+Rainwater killifish,Needlefish
+Silverside,Needlefish
+Other Pelagic Fishes,Needlefish
+2um Spherical Phytoplankt,Other Killifish
+Big Diatoms (>20um),Other Killifish
+Dinoflagellates,Other Killifish
+Other Phytoplankton,Other Killifish
+Acartia Tonsa,Other Killifish
+Oithona nana,Other Killifish
+Paracalanus,Other Killifish
+Other Copepoda,Other Killifish
+Meroplankton,Other Killifish
+Other Zooplankton,Other Killifish
+Bivalves,Other Killifish
+Detritivorous Gastropods,Other Killifish
+Macrobenthos,Other Killifish
+Benthic Crustaceans,Other Killifish
+Detritivorous Amphipods,Other Killifish
+Herbivorous Amphipods,Other Killifish
+Isopods,Other Killifish
+Herbivorous Shrimp,Other Killifish
+Predatory Shrimp,Other Killifish
+Thor Floridanus,Other Killifish
+Acartia Tonsa,Goldspotted killifish
+Oithona nana,Goldspotted killifish
+Paracalanus,Goldspotted killifish
+Other Copepoda,Goldspotted killifish
+Meroplankton,Goldspotted killifish
+Other Zooplankton,Goldspotted killifish
+Bivalves,Goldspotted killifish
+Detritivorous Gastropods,Goldspotted killifish
+Epiphytic Gastropods,Goldspotted killifish
+Detritivorous Polychaetes,Goldspotted killifish
+Predatory Polychaetes,Goldspotted killifish
+Suspension Feeding Polych,Goldspotted killifish
+Macrobenthos,Goldspotted killifish
+Benthic Crustaceans,Goldspotted killifish
+Detritivorous Amphipods,Goldspotted killifish
+Herbivorous Amphipods,Goldspotted killifish
+Herbivorous Shrimp,Goldspotted killifish
+Predatory Shrimp,Goldspotted killifish
+Pink Shrimp,Goldspotted killifish
+Thor Floridanus,Goldspotted killifish
+Detritivorous Crabs,Goldspotted killifish
+Omnivorous Crabs,Goldspotted killifish
+2um Spherical Phytoplankt,Rainwater killifish
+Big Diatoms (>20um),Rainwater killifish
+Dinoflagellates,Rainwater killifish
+Other Phytoplankton,Rainwater killifish
+Acartia Tonsa,Rainwater killifish
+Oithona nana,Rainwater killifish
+Paracalanus,Rainwater killifish
+Other Copepoda,Rainwater killifish
+Meroplankton,Rainwater killifish
+Other Zooplankton,Rainwater killifish
+Bivalves,Rainwater killifish
+Detritivorous Gastropods,Rainwater killifish
+Suspension Feeding Polych,Rainwater killifish
+Macrobenthos,Rainwater killifish
+Benthic Crustaceans,Rainwater killifish
+Detritivorous Amphipods,Rainwater killifish
+Herbivorous Amphipods,Rainwater killifish
+Isopods,Rainwater killifish
+Herbivorous Shrimp,Rainwater killifish
+Predatory Shrimp,Rainwater killifish
+Thor Floridanus,Rainwater killifish
+Detritivorous Crabs,Rainwater killifish
+Omnivorous Crabs,Rainwater killifish
+Meroplankton,Snook
+Benthic Crustaceans,Snook
+Detritivorous Amphipods,Snook
+Herbivorous Amphipods,Snook
+Isopods,Snook
+Herbivorous Shrimp,Snook
+Predatory Shrimp,Snook
+Pink Shrimp,Snook
+Thor Floridanus,Snook
+Detritivorous Crabs,Snook
+Omnivorous Crabs,Snook
+Predatory Crabs,Snook
+Callinectus sapidus,Snook
+Sardines,Snook
+Anchovy,Snook
+Bay Anchovy,Snook
+Code Goby,Snook
+Clown Goby,Snook
+Other Demersal Fishes,Snook
+2um Spherical Phytoplankt,Sailfin Molly
+Synedococcus,Sailfin Molly
+Oscillatoria,Sailfin Molly
+Big Diatoms (>20um),Sailfin Molly
+Dinoflagellates,Sailfin Molly
+Other Phytoplankton,Sailfin Molly
+Benthic Phytoplankton,Sailfin Molly
+Drift Algae,Sailfin Molly
+Epiphytes,Sailfin Molly
+Acartia Tonsa,Silverside
+Oithona nana,Silverside
+Paracalanus,Silverside
+Other Copepoda,Silverside
+Meroplankton,Silverside
+Other Zooplankton,Silverside
+Detritivorous Amphipods,Silverside
+Herbivorous Amphipods,Silverside
+Isopods,Silverside
+Herbivorous Shrimp,Silverside
+Predatory Shrimp,Silverside
+Pink Shrimp,Silverside
+Thor Floridanus,Silverside
+Acartia Tonsa,Other Horsefish
+Oithona nana,Other Horsefish
+Paracalanus,Other Horsefish
+Other Copepoda,Other Horsefish
+Other Zooplankton,Other Horsefish
+Benthic Crustaceans,Other Horsefish
+Detritivorous Amphipods,Other Horsefish
+Herbivorous Amphipods,Other Horsefish
+Isopods,Other Horsefish
+Herbivorous Shrimp,Other Horsefish
+Predatory Shrimp,Other Horsefish
+Pink Shrimp,Other Horsefish
+Thor Floridanus,Other Horsefish
+Acartia Tonsa,Gulf Pipefish
+Oithona nana,Gulf Pipefish
+Paracalanus,Gulf Pipefish
+Other Copepoda,Gulf Pipefish
+Other Zooplankton,Gulf Pipefish
+Detritivorous Gastropods,Gulf Pipefish
+Benthic Crustaceans,Gulf Pipefish
+Detritivorous Amphipods,Gulf Pipefish
+Herbivorous Amphipods,Gulf Pipefish
+Isopods,Gulf Pipefish
+Herbivorous Shrimp,Gulf Pipefish
+Predatory Shrimp,Gulf Pipefish
+Pink Shrimp,Gulf Pipefish
+Thor Floridanus,Gulf Pipefish
+Acartia Tonsa,Dwarf Seahorse
+Oithona nana,Dwarf Seahorse
+Paracalanus,Dwarf Seahorse
+Other Copepoda,Dwarf Seahorse
+Other Zooplankton,Dwarf Seahorse
+Benthic Crustaceans,Dwarf Seahorse
+Detritivorous Amphipods,Dwarf Seahorse
+Herbivorous Amphipods,Dwarf Seahorse
+Isopods,Dwarf Seahorse
+Herbivorous Shrimp,Dwarf Seahorse
+Predatory Shrimp,Dwarf Seahorse
+Pink Shrimp,Dwarf Seahorse
+Thor Floridanus,Dwarf Seahorse
+Herbivorous Shrimp,Grouper
+Predatory Shrimp,Grouper
+Pink Shrimp,Grouper
+Lobster,Grouper
+Detritivorous Crabs,Grouper
+Omnivorous Crabs,Grouper
+Predatory Crabs,Grouper
+Callinectus sapidus,Grouper
+Stone Crab,Grouper
+Sardines,Grouper
+Bay Anchovy,Grouper
+Eels,Grouper
+Toadfish,Grouper
+Brotalus,Grouper
+Goldspotted killifish,Grouper
+Rainwater killifish,Grouper
+Sailfin Molly,Grouper
+Silverside,Grouper
+Other Horsefish,Grouper
+Gulf Pipefish,Grouper
+Dwarf Seahorse,Grouper
+Mojarra,Grouper
+Grunt,Grouper
+Pinfish,Grouper
+Mullet,Grouper
+Blennies,Grouper
+Code Goby,Grouper
+Clown Goby,Grouper
+Flatfish,Grouper
+Other Demersal Fishes,Grouper
+Acartia Tonsa,Jacks
+Oithona nana,Jacks
+Paracalanus,Jacks
+Other Copepoda,Jacks
+Herbivorous Shrimp,Jacks
+Predatory Shrimp,Jacks
+Pink Shrimp,Jacks
+Sardines,Jacks
+Anchovy,Jacks
+Bay Anchovy,Jacks
+Halfbeaks,Jacks
+Needlefish,Jacks
+Goldspotted killifish,Jacks
+Rainwater killifish,Jacks
+Silverside,Jacks
+Mojarra,Jacks
+Pinfish,Jacks
+Other Pelagic Fishes,Jacks
+Acartia Tonsa,Pompano
+Oithona nana,Pompano
+Paracalanus,Pompano
+Other Copepoda,Pompano
+Bivalves,Pompano
+Detritivorous Gastropods,Pompano
+Predatory Gastropods,Pompano
+Detritivorous Polychaetes,Pompano
+Predatory Polychaetes,Pompano
+Suspension Feeding Polych,Pompano
+Macrobenthos,Pompano
+Benthic Crustaceans,Pompano
+Isopods,Pompano
+Herbivorous Shrimp,Pompano
+Predatory Shrimp,Pompano
+Pink Shrimp,Pompano
+Detritivorous Crabs,Pompano
+Omnivorous Crabs,Pompano
+Predatory Crabs,Pompano
+Callinectus sapidus,Pompano
+Sardines,Pompano
+Anchovy,Pompano
+Bay Anchovy,Pompano
+Eels,Pompano
+Goldspotted killifish,Pompano
+Rainwater killifish,Pompano
+Silverside,Pompano
+Mojarra,Pompano
+Pinfish,Pompano
+Blennies,Pompano
+Code Goby,Pompano
+Clown Goby,Pompano
+Other Demersal Fishes,Pompano
+Isopods,Other Snapper
+Herbivorous Shrimp,Other Snapper
+Predatory Shrimp,Other Snapper
+Pink Shrimp,Other Snapper
+Thor Floridanus,Other Snapper
+Sardines,Other Snapper
+Anchovy,Other Snapper
+Bay Anchovy,Other Snapper
+Toadfish,Other Snapper
+Other Killifish,Other Snapper
+Goldspotted killifish,Other Snapper
+Rainwater killifish,Other Snapper
+Sailfin Molly,Other Snapper
+Other Horsefish,Other Snapper
+Gulf Pipefish,Other Snapper
+Dwarf Seahorse,Other Snapper
+Mojarra,Other Snapper
+Pinfish,Other Snapper
+Code Goby,Other Snapper
+Clown Goby,Other Snapper
+Other Demersal Fishes,Other Snapper
+Herbivorous Shrimp,Gray Snapper
+Predatory Shrimp,Gray Snapper
+Pink Shrimp,Gray Snapper
+Thor Floridanus,Gray Snapper
+Sardines,Gray Snapper
+Anchovy,Gray Snapper
+Bay Anchovy,Gray Snapper
+Toadfish,Gray Snapper
+Other Killifish,Gray Snapper
+Goldspotted killifish,Gray Snapper
+Rainwater killifish,Gray Snapper
+Sailfin Molly,Gray Snapper
+Other Horsefish,Gray Snapper
+Gulf Pipefish,Gray Snapper
+Dwarf Seahorse,Gray Snapper
+Mojarra,Gray Snapper
+Pinfish,Gray Snapper
+Code Goby,Gray Snapper
+Clown Goby,Gray Snapper
+Other Demersal Fishes,Gray Snapper
+Acartia Tonsa,Mojarra
+Oithona nana,Mojarra
+Paracalanus,Mojarra
+Other Copepoda,Mojarra
+Sponges,Mojarra
+Other Cnidaridae,Mojarra
+Bivalves,Mojarra
+Detritivorous Gastropods,Mojarra
+Epiphytic Gastropods,Mojarra
+Predatory Gastropods,Mojarra
+Detritivorous Polychaetes,Mojarra
+Predatory Polychaetes,Mojarra
+Suspension Feeding Polych,Mojarra
+Macrobenthos,Mojarra
+Benthic Crustaceans,Mojarra
+Detritivorous Amphipods,Mojarra
+Herbivorous Amphipods,Mojarra
+Isopods,Mojarra
+Herbivorous Shrimp,Mojarra
+Predatory Shrimp,Mojarra
+Pink Shrimp,Mojarra
+Thor Floridanus,Mojarra
+Acartia Tonsa,Grunt
+Oithona nana,Grunt
+Paracalanus,Grunt
+Other Copepoda,Grunt
+Meiofauna,Grunt
+Bivalves,Grunt
+Detritivorous Gastropods,Grunt
+Epiphytic Gastropods,Grunt
+Predatory Gastropods,Grunt
+Detritivorous Polychaetes,Grunt
+Predatory Polychaetes,Grunt
+Suspension Feeding Polych,Grunt
+Macrobenthos,Grunt
+Benthic Crustaceans,Grunt
+Detritivorous Amphipods,Grunt
+Herbivorous Amphipods,Grunt
+Isopods,Grunt
+Herbivorous Shrimp,Grunt
+Predatory Shrimp,Grunt
+Pink Shrimp,Grunt
+Thor Floridanus,Grunt
+Omnivorous Crabs,Grunt
+Sailfin Molly,Grunt
+Mojarra,Grunt
+Mullet,Grunt
+Epiphytes,Porgy
+Sponges,Porgy
+Bivalves,Porgy
+Detritivorous Gastropods,Porgy
+Epiphytic Gastropods,Porgy
+Predatory Gastropods,Porgy
+Detritivorous Polychaetes,Porgy
+Predatory Polychaetes,Porgy
+Suspension Feeding Polych,Porgy
+Benthic Crustaceans,Porgy
+Detritivorous Amphipods,Porgy
+Herbivorous Amphipods,Porgy
+Isopods,Porgy
+Herbivorous Shrimp,Porgy
+Predatory Shrimp,Porgy
+Pink Shrimp,Porgy
+Omnivorous Crabs,Porgy
+Synedococcus,Pinfish
+Oscillatoria,Pinfish
+Thalassia,Pinfish
+Halodule,Pinfish
+Syringodium,Pinfish
+Drift Algae,Pinfish
+Epiphytes,Pinfish
+Sponges,Pinfish
+Other Cnidaridae,Pinfish
+Bivalves,Pinfish
+Detritivorous Gastropods,Pinfish
+Epiphytic Gastropods,Pinfish
+Predatory Gastropods,Pinfish
+Detritivorous Polychaetes,Pinfish
+Predatory Polychaetes,Pinfish
+Suspension Feeding Polych,Pinfish
+Macrobenthos,Pinfish
+Benthic Crustaceans,Pinfish
+Detritivorous Amphipods,Pinfish
+Herbivorous Amphipods,Pinfish
+Isopods,Pinfish
+Herbivorous Shrimp,Pinfish
+Predatory Shrimp,Pinfish
+Pink Shrimp,Pinfish
+Detritivorous Crabs,Pinfish
+Omnivorous Crabs,Pinfish
+Acartia Tonsa,Scianids
+Oithona nana,Scianids
+Paracalanus,Scianids
+Other Copepoda,Scianids
+Meiofauna,Scianids
+Bivalves,Scianids
+Detritivorous Polychaetes,Scianids
+Predatory Polychaetes,Scianids
+Suspension Feeding Polych,Scianids
+Macrobenthos,Scianids
+Benthic Crustaceans,Scianids
+Detritivorous Amphipods,Scianids
+Herbivorous Amphipods,Scianids
+Isopods,Scianids
+Herbivorous Shrimp,Scianids
+Predatory Shrimp,Scianids
+Pink Shrimp,Scianids
+Thor Floridanus,Scianids
+Lobster,Scianids
+Omnivorous Crabs,Scianids
+Bay Anchovy,Scianids
+Goldspotted killifish,Scianids
+Rainwater killifish,Scianids
+Sailfin Molly,Scianids
+Other Horsefish,Scianids
+Gulf Pipefish,Scianids
+Dwarf Seahorse,Scianids
+Mojarra,Scianids
+Mullet,Scianids
+Blennies,Scianids
+Code Goby,Scianids
+Clown Goby,Scianids
+Filefishes,Scianids
+Other Demersal Fishes,Scianids
+Acartia Tonsa,Spotted Seatrout
+Oithona nana,Spotted Seatrout
+Paracalanus,Spotted Seatrout
+Other Copepoda,Spotted Seatrout
+Detritivorous Amphipods,Spotted Seatrout
+Herbivorous Amphipods,Spotted Seatrout
+Herbivorous Shrimp,Spotted Seatrout
+Predatory Shrimp,Spotted Seatrout
+Pink Shrimp,Spotted Seatrout
+Thor Floridanus,Spotted Seatrout
+Sardines,Spotted Seatrout
+Anchovy,Spotted Seatrout
+Bay Anchovy,Spotted Seatrout
+Lizardfish,Spotted Seatrout
+Toadfish,Spotted Seatrout
+Other Killifish,Spotted Seatrout
+Goldspotted killifish,Spotted Seatrout
+Rainwater killifish,Spotted Seatrout
+Mojarra,Spotted Seatrout
+Code Goby,Spotted Seatrout
+Clown Goby,Spotted Seatrout
+Other Demersal Fishes,Spotted Seatrout
+Bivalves,Red Drum
+Detritivorous Gastropods,Red Drum
+Epiphytic Gastropods,Red Drum
+Predatory Gastropods,Red Drum
+Benthic Crustaceans,Red Drum
+Detritivorous Amphipods,Red Drum
+Herbivorous Amphipods,Red Drum
+Isopods,Red Drum
+Herbivorous Shrimp,Red Drum
+Predatory Shrimp,Red Drum
+Pink Shrimp,Red Drum
+Thor Floridanus,Red Drum
+Bay Anchovy,Red Drum
+Catfish,Red Drum
+Toadfish,Red Drum
+Brotalus,Red Drum
+Other Killifish,Red Drum
+Goldspotted killifish,Red Drum
+Rainwater killifish,Red Drum
+Mojarra,Red Drum
+Code Goby,Red Drum
+Clown Goby,Red Drum
+Filefishes,Red Drum
+Other Demersal Fishes,Red Drum
+Coral,Spadefish
+Other Cnidaridae,Spadefish
+Macrobenthos,Spadefish
+Benthic Crustaceans,Spadefish
+Detritivorous Amphipods,Spadefish
+Herbivorous Amphipods,Spadefish
+Isopods,Spadefish
+Herbivorous Shrimp,Spadefish
+Predatory Shrimp,Spadefish
+Pink Shrimp,Spadefish
+Thor Floridanus,Spadefish
+Lobster,Spadefish
+Detritivorous Crabs,Spadefish
+Omnivorous Crabs,Spadefish
+Predatory Crabs,Spadefish
+Callinectus sapidus,Spadefish
+Stone Crab,Spadefish
+Synedococcus,Parrotfish
+Oscillatoria,Parrotfish
+Drift Algae,Parrotfish
+Epiphytes,Parrotfish
+Meiofauna,Parrotfish
+Sponges,Parrotfish
+Coral,Parrotfish
+Echinoderma,Parrotfish
+Bivalves,Parrotfish
+Detritivorous Polychaetes,Parrotfish
+Predatory Polychaetes,Parrotfish
+Suspension Feeding Polych,Parrotfish
+Macrobenthos,Parrotfish
+Sardines,Mackerel
+Anchovy,Mackerel
+Bay Anchovy,Mackerel
+Halfbeaks,Mackerel
+Needlefish,Mackerel
+Goldspotted killifish,Mackerel
+Rainwater killifish,Mackerel
+Silverside,Mackerel
+Puffer,Mackerel
+Other Pelagic Fishes,Mackerel
+Synedococcus,Mullet
+Oscillatoria,Mullet
+Drift Algae,Mullet
+Epiphytes,Mullet
+Benthic Flagellates,Mullet
+Benthic Ciliates,Mullet
+Meiofauna,Mullet
+Macrobenthos,Mullet
+Benthic Crustaceans,Mullet
+Detritivorous Amphipods,Mullet
+Herbivorous Amphipods,Mullet
+Isopods,Mullet
+Benthic POC,Mullet
+Tarpon,Barracuda
+Bonefish,Barracuda
+Sardines,Barracuda
+Anchovy,Barracuda
+Bay Anchovy,Barracuda
+Halfbeaks,Barracuda
+Needlefish,Barracuda
+Other Killifish,Barracuda
+Goldspotted killifish,Barracuda
+Rainwater killifish,Barracuda
+Sailfin Molly,Barracuda
+Silverside,Barracuda
+Other Snapper,Barracuda
+Mojarra,Barracuda
+Pinfish,Barracuda
+Scianids,Barracuda
+Spotted Seatrout,Barracuda
+Parrotfish,Barracuda
+Mullet,Barracuda
+Blennies,Barracuda
+Code Goby,Barracuda
+Clown Goby,Barracuda
+Filefishes,Barracuda
+Puffer,Barracuda
+Other Pelagic Fishes,Barracuda
+Other Demersal Fishes,Barracuda
+Benthic Crustaceans,Blennies
+Detritivorous Amphipods,Blennies
+Herbivorous Amphipods,Blennies
+Isopods,Blennies
+Herbivorous Shrimp,Blennies
+Predatory Shrimp,Blennies
+Pink Shrimp,Blennies
+Thor Floridanus,Blennies
+Detritivorous Crabs,Blennies
+Omnivorous Crabs,Blennies
+Acartia Tonsa,Code Goby
+Oithona nana,Code Goby
+Paracalanus,Code Goby
+Other Copepoda,Code Goby
+Detritivorous Polychaetes,Code Goby
+Predatory Polychaetes,Code Goby
+Suspension Feeding Polych,Code Goby
+Benthic Crustaceans,Code Goby
+Detritivorous Amphipods,Code Goby
+Herbivorous Amphipods,Code Goby
+Acartia Tonsa,Clown Goby
+Oithona nana,Clown Goby
+Paracalanus,Clown Goby
+Other Copepoda,Clown Goby
+Detritivorous Polychaetes,Clown Goby
+Predatory Polychaetes,Clown Goby
+Suspension Feeding Polych,Clown Goby
+Benthic Crustaceans,Clown Goby
+Detritivorous Amphipods,Clown Goby
+Herbivorous Amphipods,Clown Goby
+Acartia Tonsa,Flatfish
+Oithona nana,Flatfish
+Paracalanus,Flatfish
+Other Copepoda,Flatfish
+Meroplankton,Flatfish
+Other Zooplankton,Flatfish
+Meiofauna,Flatfish
+Detritivorous Polychaetes,Flatfish
+Predatory Polychaetes,Flatfish
+Suspension Feeding Polych,Flatfish
+Macrobenthos,Flatfish
+Benthic Crustaceans,Flatfish
+Detritivorous Amphipods,Flatfish
+Herbivorous Amphipods,Flatfish
+Isopods,Flatfish
+Herbivorous Shrimp,Flatfish
+Predatory Shrimp,Flatfish
+Pink Shrimp,Flatfish
+Thor Floridanus,Flatfish
+Omnivorous Crabs,Flatfish
+Toadfish,Flatfish
+Brotalus,Flatfish
+Blennies,Flatfish
+Code Goby,Flatfish
+Clown Goby,Flatfish
+Other Demersal Fishes,Flatfish
+Sponges,Filefishes
+Coral,Filefishes
+Other Cnidaridae,Filefishes
+Echinoderma,Filefishes
+Bivalves,Filefishes
+Detritivorous Gastropods,Filefishes
+Epiphytic Gastropods,Filefishes
+Predatory Gastropods,Filefishes
+Detritivorous Polychaetes,Filefishes
+Predatory Polychaetes,Filefishes
+Suspension Feeding Polych,Filefishes
+Detritivorous Crabs,Filefishes
+Omnivorous Crabs,Filefishes
+Predatory Crabs,Filefishes
+Callinectus sapidus,Filefishes
+Echinoderma,Puffer
+Bivalves,Puffer
+Detritivorous Gastropods,Puffer
+Epiphytic Gastropods,Puffer
+Predatory Gastropods,Puffer
+Detritivorous Polychaetes,Puffer
+Predatory Polychaetes,Puffer
+Suspension Feeding Polych,Puffer
+Macrobenthos,Puffer
+Benthic Crustaceans,Puffer
+Detritivorous Amphipods,Puffer
+Herbivorous Amphipods,Puffer
+Herbivorous Shrimp,Puffer
+Predatory Shrimp,Puffer
+Lobster,Puffer
+Detritivorous Crabs,Puffer
+Omnivorous Crabs,Puffer
+Predatory Crabs,Puffer
+Callinectus sapidus,Puffer
+Stone Crab,Puffer
+Acartia Tonsa,Other Pelagic Fishes
+Oithona nana,Other Pelagic Fishes
+Paracalanus,Other Pelagic Fishes
+Other Copepoda,Other Pelagic Fishes
+Herbivorous Shrimp,Other Pelagic Fishes
+Predatory Shrimp,Other Pelagic Fishes
+Pink Shrimp,Other Pelagic Fishes
+Sardines,Other Pelagic Fishes
+Anchovy,Other Pelagic Fishes
+Bay Anchovy,Other Pelagic Fishes
+Halfbeaks,Other Pelagic Fishes
+Needlefish,Other Pelagic Fishes
+Goldspotted killifish,Other Pelagic Fishes
+Rainwater killifish,Other Pelagic Fishes
+Silverside,Other Pelagic Fishes
+Pinfish,Other Pelagic Fishes
+Parrotfish,Other Pelagic Fishes
+Filefishes,Other Pelagic Fishes
+Puffer,Other Pelagic Fishes
+Benthic Phytoplankton,Other Demersal Fishes
+Thalassia,Other Demersal Fishes
+Halodule,Other Demersal Fishes
+Syringodium,Other Demersal Fishes
+Drift Algae,Other Demersal Fishes
+Epiphytes,Other Demersal Fishes
+Meiofauna,Other Demersal Fishes
+Sponges,Other Demersal Fishes
+Echinoderma,Other Demersal Fishes
+Bivalves,Other Demersal Fishes
+Detritivorous Gastropods,Other Demersal Fishes
+Epiphytic Gastropods,Other Demersal Fishes
+Predatory Gastropods,Other Demersal Fishes
+Detritivorous Polychaetes,Other Demersal Fishes
+Predatory Polychaetes,Other Demersal Fishes
+Suspension Feeding Polych,Other Demersal Fishes
+Macrobenthos,Other Demersal Fishes
+Benthic Crustaceans,Other Demersal Fishes
+Detritivorous Amphipods,Other Demersal Fishes
+Herbivorous Amphipods,Other Demersal Fishes
+Isopods,Other Demersal Fishes
+Herbivorous Shrimp,Other Demersal Fishes
+Predatory Shrimp,Other Demersal Fishes
+Pink Shrimp,Other Demersal Fishes
+Omnivorous Crabs,Other Demersal Fishes
+Toadfish,Other Demersal Fishes
+Brotalus,Other Demersal Fishes
+Goldspotted killifish,Other Demersal Fishes
+Mojarra,Other Demersal Fishes
+Blennies,Other Demersal Fishes
+Flatfish,Other Demersal Fishes
+Herbivorous Shrimp,Loon
+Predatory Shrimp,Loon
+Pink Shrimp,Loon
+Lobster,Loon
+Omnivorous Crabs,Loon
+Callinectus sapidus,Loon
+Sardines,Loon
+Bay Anchovy,Loon
+Lizardfish,Loon
+Eels,Loon
+Toadfish,Loon
+Halfbeaks,Loon
+Needlefish,Loon
+Goldspotted killifish,Loon
+Rainwater killifish,Loon
+Silverside,Loon
+Other Horsefish,Loon
+Gulf Pipefish,Loon
+Dwarf Seahorse,Loon
+Other Snapper,Loon
+Mojarra,Loon
+Grunt,Loon
+Pinfish,Loon
+Scianids,Loon
+Spotted Seatrout,Loon
+Parrotfish,Loon
+Blennies,Loon
+Code Goby,Loon
+Clown Goby,Loon
+Flatfish,Loon
+Filefishes,Loon
+Puffer,Loon
+Other Demersal Fishes,Loon
+Echinoderma,Greeb
+Bivalves,Greeb
+Predatory Polychaetes,Greeb
+Suspension Feeding Polych,Greeb
+Herbivorous Shrimp,Greeb
+Predatory Shrimp,Greeb
+Pink Shrimp,Greeb
+Lobster,Greeb
+Omnivorous Crabs,Greeb
+Callinectus sapidus,Greeb
+Sardines,Greeb
+Bay Anchovy,Greeb
+Lizardfish,Greeb
+Toadfish,Greeb
+Halfbeaks,Greeb
+Needlefish,Greeb
+Goldspotted killifish,Greeb
+Rainwater killifish,Greeb
+Sailfin Molly,Greeb
+Silverside,Greeb
+Other Horsefish,Greeb
+Gulf Pipefish,Greeb
+Dwarf Seahorse,Greeb
+Other Snapper,Greeb
+Mojarra,Greeb
+Grunt,Greeb
+Pinfish,Greeb
+Scianids,Greeb
+Parrotfish,Greeb
+Blennies,Greeb
+Code Goby,Greeb
+Clown Goby,Greeb
+Flatfish,Greeb
+Filefishes,Greeb
+Puffer,Greeb
+Other Demersal Fishes,Greeb
+Herbivorous Shrimp,Pelican
+Predatory Shrimp,Pelican
+Pink Shrimp,Pelican
+Sardines,Pelican
+Bay Anchovy,Pelican
+Lizardfish,Pelican
+Eels,Pelican
+Toadfish,Pelican
+Halfbeaks,Pelican
+Needlefish,Pelican
+Goldspotted killifish,Pelican
+Rainwater killifish,Pelican
+Silverside,Pelican
+Other Horsefish,Pelican
+Gulf Pipefish,Pelican
+Other Snapper,Pelican
+Grunt,Pelican
+Pinfish,Pelican
+Scianids,Pelican
+Parrotfish,Pelican
+Blennies,Pelican
+Code Goby,Pelican
+Clown Goby,Pelican
+Flatfish,Pelican
+Filefishes,Pelican
+Puffer,Pelican
+Other Pelagic Fishes,Pelican
+Other Demersal Fishes,Pelican
+Herbivorous Shrimp,Comorant
+Predatory Shrimp,Comorant
+Pink Shrimp,Comorant
+Sardines,Comorant
+Bay Anchovy,Comorant
+Lizardfish,Comorant
+Eels,Comorant
+Toadfish,Comorant
+Halfbeaks,Comorant
+Needlefish,Comorant
+Goldspotted killifish,Comorant
+Rainwater killifish,Comorant
+Silverside,Comorant
+Other Horsefish,Comorant
+Gulf Pipefish,Comorant
+Dwarf Seahorse,Comorant
+Other Snapper,Comorant
+Grunt,Comorant
+Pinfish,Comorant
+Scianids,Comorant
+Parrotfish,Comorant
+Blennies,Comorant
+Code Goby,Comorant
+Clown Goby,Comorant
+Flatfish,Comorant
+Filefishes,Comorant
+Puffer,Comorant
+Other Demersal Fishes,Comorant
+Bivalves,Big Herons & Egrets
+Detritivorous Gastropods,Big Herons & Egrets
+Detritivorous Polychaetes,Big Herons & Egrets
+Predatory Polychaetes,Big Herons & Egrets
+Suspension Feeding Polych,Big Herons & Egrets
+Macrobenthos,Big Herons & Egrets
+Herbivorous Shrimp,Big Herons & Egrets
+Predatory Shrimp,Big Herons & Egrets
+Pink Shrimp,Big Herons & Egrets
+Omnivorous Crabs,Big Herons & Egrets
+Sardines,Big Herons & Egrets
+Bay Anchovy,Big Herons & Egrets
+Catfish,Big Herons & Egrets
+Eels,Big Herons & Egrets
+Needlefish,Big Herons & Egrets
+Goldspotted killifish,Big Herons & Egrets
+Rainwater killifish,Big Herons & Egrets
+Silverside,Big Herons & Egrets
+Other Horsefish,Big Herons & Egrets
+Gulf Pipefish,Big Herons & Egrets
+Other Snapper,Big Herons & Egrets
+Mojarra,Big Herons & Egrets
+Grunt,Big Herons & Egrets
+Pinfish,Big Herons & Egrets
+Scianids,Big Herons & Egrets
+Blennies,Big Herons & Egrets
+Code Goby,Big Herons & Egrets
+Clown Goby,Big Herons & Egrets
+Flatfish,Big Herons & Egrets
+Filefishes,Big Herons & Egrets
+Puffer,Big Herons & Egrets
+Other Pelagic Fishes,Big Herons & Egrets
+Other Demersal Fishes,Big Herons & Egrets
+Bivalves,Small Herons & Egrets
+Detritivorous Gastropods,Small Herons & Egrets
+Detritivorous Polychaetes,Small Herons & Egrets
+Predatory Polychaetes,Small Herons & Egrets
+Suspension Feeding Polych,Small Herons & Egrets
+Macrobenthos,Small Herons & Egrets
+Herbivorous Shrimp,Small Herons & Egrets
+Predatory Shrimp,Small Herons & Egrets
+Pink Shrimp,Small Herons & Egrets
+Omnivorous Crabs,Small Herons & Egrets
+Sardines,Small Herons & Egrets
+Bay Anchovy,Small Herons & Egrets
+Toadfish,Small Herons & Egrets
+Other Killifish,Small Herons & Egrets
+Goldspotted killifish,Small Herons & Egrets
+Rainwater killifish,Small Herons & Egrets
+Sailfin Molly,Small Herons & Egrets
+Silverside,Small Herons & Egrets
+Other Horsefish,Small Herons & Egrets
+Gulf Pipefish,Small Herons & Egrets
+Dwarf Seahorse,Small Herons & Egrets
+Mojarra,Small Herons & Egrets
+Pinfish,Small Herons & Egrets
+Blennies,Small Herons & Egrets
+Code Goby,Small Herons & Egrets
+Clown Goby,Small Herons & Egrets
+Other Demersal Fishes,Small Herons & Egrets
+Bivalves,Ibis
+Detritivorous Gastropods,Ibis
+Epiphytic Gastropods,Ibis
+Detritivorous Polychaetes,Ibis
+Predatory Polychaetes,Ibis
+Suspension Feeding Polych,Ibis
+Macrobenthos,Ibis
+Herbivorous Shrimp,Ibis
+Predatory Shrimp,Ibis
+Pink Shrimp,Ibis
+Lobster,Ibis
+Detritivorous Crabs,Ibis
+Omnivorous Crabs,Ibis
+Callinectus sapidus,Ibis
+Sardines,Ibis
+Bay Anchovy,Ibis
+Goldspotted killifish,Ibis
+Rainwater killifish,Ibis
+Sailfin Molly,Ibis
+Silverside,Ibis
+Other Horsefish,Ibis
+Gulf Pipefish,Ibis
+Dwarf Seahorse,Ibis
+Mojarra,Ibis
+Blennies,Ibis
+Code Goby,Ibis
+Clown Goby,Ibis
+Other Demersal Fishes,Ibis
+Bivalves,Roseate Spoonbill
+Detritivorous Gastropods,Roseate Spoonbill
+Detritivorous Polychaetes,Roseate Spoonbill
+Predatory Polychaetes,Roseate Spoonbill
+Suspension Feeding Polych,Roseate Spoonbill
+Macrobenthos,Roseate Spoonbill
+Herbivorous Shrimp,Roseate Spoonbill
+Predatory Shrimp,Roseate Spoonbill
+Pink Shrimp,Roseate Spoonbill
+Lobster,Roseate Spoonbill
+Omnivorous Crabs,Roseate Spoonbill
+Callinectus sapidus,Roseate Spoonbill
+Sardines,Roseate Spoonbill
+Bay Anchovy,Roseate Spoonbill
+Toadfish,Roseate Spoonbill
+Goldspotted killifish,Roseate Spoonbill
+Rainwater killifish,Roseate Spoonbill
+Sailfin Molly,Roseate Spoonbill
+Silverside,Roseate Spoonbill
+Other Horsefish,Roseate Spoonbill
+Gulf Pipefish,Roseate Spoonbill
+Dwarf Seahorse,Roseate Spoonbill
+Mojarra,Roseate Spoonbill
+Pinfish,Roseate Spoonbill
+Blennies,Roseate Spoonbill
+Code Goby,Roseate Spoonbill
+Clown Goby,Roseate Spoonbill
+Other Demersal Fishes,Roseate Spoonbill
+Thalassia,Herbivorous Ducks
+Halodule,Herbivorous Ducks
+Syringodium,Herbivorous Ducks
+Epiphytes,Herbivorous Ducks
+Bivalves,Herbivorous Ducks
+Detritivorous Gastropods,Herbivorous Ducks
+Epiphytic Gastropods,Herbivorous Ducks
+Predatory Gastropods,Herbivorous Ducks
+Detritivorous Polychaetes,Herbivorous Ducks
+Predatory Polychaetes,Herbivorous Ducks
+Suspension Feeding Polych,Herbivorous Ducks
+Herbivorous Shrimp,Herbivorous Ducks
+Predatory Shrimp,Herbivorous Ducks
+Pink Shrimp,Herbivorous Ducks
+Detritivorous Crabs,Herbivorous Ducks
+Omnivorous Crabs,Herbivorous Ducks
+Callinectus sapidus,Herbivorous Ducks
+Goldspotted killifish,Herbivorous Ducks
+Rainwater killifish,Herbivorous Ducks
+Code Goby,Herbivorous Ducks
+Thalassia,Omnivorous Ducks
+Halodule,Omnivorous Ducks
+Syringodium,Omnivorous Ducks
+Epiphytes,Omnivorous Ducks
+Bivalves,Omnivorous Ducks
+Detritivorous Gastropods,Omnivorous Ducks
+Epiphytic Gastropods,Omnivorous Ducks
+Predatory Gastropods,Omnivorous Ducks
+Detritivorous Polychaetes,Omnivorous Ducks
+Predatory Polychaetes,Omnivorous Ducks
+Suspension Feeding Polych,Omnivorous Ducks
+Herbivorous Shrimp,Omnivorous Ducks
+Predatory Shrimp,Omnivorous Ducks
+Pink Shrimp,Omnivorous Ducks
+Detritivorous Crabs,Omnivorous Ducks
+Omnivorous Crabs,Omnivorous Ducks
+Callinectus sapidus,Omnivorous Ducks
+Goldspotted killifish,Omnivorous Ducks
+Rainwater killifish,Omnivorous Ducks
+Gulf Pipefish,Omnivorous Ducks
+Mojarra,Omnivorous Ducks
+Code Goby,Omnivorous Ducks
+Bivalves,Predatory Ducks
+Detritivorous Gastropods,Predatory Ducks
+Detritivorous Polychaetes,Predatory Ducks
+Predatory Polychaetes,Predatory Ducks
+Suspension Feeding Polych,Predatory Ducks
+Herbivorous Shrimp,Predatory Ducks
+Predatory Shrimp,Predatory Ducks
+Pink Shrimp,Predatory Ducks
+Omnivorous Crabs,Predatory Ducks
+Callinectus sapidus,Predatory Ducks
+Sardines,Predatory Ducks
+Bay Anchovy,Predatory Ducks
+Lizardfish,Predatory Ducks
+Eels,Predatory Ducks
+Toadfish,Predatory Ducks
+Halfbeaks,Predatory Ducks
+Needlefish,Predatory Ducks
+Goldspotted killifish,Predatory Ducks
+Rainwater killifish,Predatory Ducks
+Silverside,Predatory Ducks
+Other Horsefish,Predatory Ducks
+Gulf Pipefish,Predatory Ducks
+Dwarf Seahorse,Predatory Ducks
+Other Snapper,Predatory Ducks
+Mojarra,Predatory Ducks
+Grunt,Predatory Ducks
+Pinfish,Predatory Ducks
+Scianids,Predatory Ducks
+Spotted Seatrout,Predatory Ducks
+Parrotfish,Predatory Ducks
+Blennies,Predatory Ducks
+Code Goby,Predatory Ducks
+Clown Goby,Predatory Ducks
+Flatfish,Predatory Ducks
+Filefishes,Predatory Ducks
+Puffer,Predatory Ducks
+Other Demersal Fishes,Predatory Ducks
+Rays,Raptors
+Tarpon,Raptors
+Lizardfish,Raptors
+Catfish,Raptors
+Eels,Raptors
+Toadfish,Raptors
+Brotalus,Raptors
+Halfbeaks,Raptors
+Needlefish,Raptors
+Jacks,Raptors
+Other Snapper,Raptors
+Gray Snapper,Raptors
+Mojarra,Raptors
+Grunt,Raptors
+Pinfish,Raptors
+Scianids,Raptors
+Spotted Seatrout,Raptors
+Red Drum,Raptors
+Spadefish,Raptors
+Parrotfish,Raptors
+Mullet,Raptors
+Barracuda,Raptors
+Flatfish,Raptors
+Filefishes,Raptors
+Puffer,Raptors
+Other Demersal Fishes,Raptors
+Pelican,Raptors
+Comorant,Raptors
+Big Herons & Egrets,Raptors
+Small Herons & Egrets,Raptors
+Ibis,Raptors
+Roseate Spoonbill,Raptors
+Herbivorous Ducks,Raptors
+Omnivorous Ducks,Raptors
+Gruiformes,Raptors
+Small Shorebirds,Raptors
+Gulls & Terns,Raptors
+Bivalves,Gruiformes
+Detritivorous Gastropods,Gruiformes
+Epiphytic Gastropods,Gruiformes
+Predatory Gastropods,Gruiformes
+Detritivorous Polychaetes,Gruiformes
+Predatory Polychaetes,Gruiformes
+Suspension Feeding Polych,Gruiformes
+Macrobenthos,Gruiformes
+Herbivorous Shrimp,Gruiformes
+Predatory Shrimp,Gruiformes
+Pink Shrimp,Gruiformes
+Lobster,Gruiformes
+Detritivorous Crabs,Gruiformes
+Omnivorous Crabs,Gruiformes
+Callinectus sapidus,Gruiformes
+Sardines,Gruiformes
+Bay Anchovy,Gruiformes
+Goldspotted killifish,Gruiformes
+Rainwater killifish,Gruiformes
+Silverside,Gruiformes
+Other Horsefish,Gruiformes
+Gulf Pipefish,Gruiformes
+Dwarf Seahorse,Gruiformes
+Mojarra,Gruiformes
+Blennies,Gruiformes
+Code Goby,Gruiformes
+Clown Goby,Gruiformes
+Other Demersal Fishes,Gruiformes
+Bivalves,Small Shorebirds
+Detritivorous Gastropods,Small Shorebirds
+Epiphytic Gastropods,Small Shorebirds
+Predatory Gastropods,Small Shorebirds
+Detritivorous Polychaetes,Small Shorebirds
+Predatory Polychaetes,Small Shorebirds
+Suspension Feeding Polych,Small Shorebirds
+Macrobenthos,Small Shorebirds
+Herbivorous Shrimp,Small Shorebirds
+Predatory Shrimp,Small Shorebirds
+Pink Shrimp,Small Shorebirds
+Lobster,Small Shorebirds
+Detritivorous Crabs,Small Shorebirds
+Omnivorous Crabs,Small Shorebirds
+Predatory Crabs,Small Shorebirds
+Callinectus sapidus,Small Shorebirds
+Sardines,Small Shorebirds
+Bay Anchovy,Small Shorebirds
+Goldspotted killifish,Small Shorebirds
+Rainwater killifish,Small Shorebirds
+Silverside,Small Shorebirds
+Other Horsefish,Small Shorebirds
+Gulf Pipefish,Small Shorebirds
+Dwarf Seahorse,Small Shorebirds
+Mojarra,Small Shorebirds
+Blennies,Small Shorebirds
+Code Goby,Small Shorebirds
+Clown Goby,Small Shorebirds
+Other Demersal Fishes,Small Shorebirds
+Bivalves,Gulls & Terns
+Detritivorous Gastropods,Gulls & Terns
+Epiphytic Gastropods,Gulls & Terns
+Predatory Gastropods,Gulls & Terns
+Detritivorous Polychaetes,Gulls & Terns
+Predatory Polychaetes,Gulls & Terns
+Suspension Feeding Polych,Gulls & Terns
+Macrobenthos,Gulls & Terns
+Herbivorous Shrimp,Gulls & Terns
+Predatory Shrimp,Gulls & Terns
+Pink Shrimp,Gulls & Terns
+Lobster,Gulls & Terns
+Detritivorous Crabs,Gulls & Terns
+Omnivorous Crabs,Gulls & Terns
+Callinectus sapidus,Gulls & Terns
+Sardines,Gulls & Terns
+Bay Anchovy,Gulls & Terns
+Goldspotted killifish,Gulls & Terns
+Rainwater killifish,Gulls & Terns
+Silverside,Gulls & Terns
+Other Horsefish,Gulls & Terns
+Gulf Pipefish,Gulls & Terns
+Dwarf Seahorse,Gulls & Terns
+Mojarra,Gulls & Terns
+Blennies,Gulls & Terns
+Code Goby,Gulls & Terns
+Clown Goby,Gulls & Terns
+Other Demersal Fishes,Gulls & Terns
+Herbivorous Shrimp,Kingfisher
+Predatory Shrimp,Kingfisher
+Pink Shrimp,Kingfisher
+Omnivorous Crabs,Kingfisher
+Callinectus sapidus,Kingfisher
+Sardines,Kingfisher
+Bay Anchovy,Kingfisher
+Goldspotted killifish,Kingfisher
+Rainwater killifish,Kingfisher
+Sailfin Molly,Kingfisher
+Silverside,Kingfisher
+Other Horsefish,Kingfisher
+Gulf Pipefish,Kingfisher
+Dwarf Seahorse,Kingfisher
+Mojarra,Kingfisher
+Blennies,Kingfisher
+Code Goby,Kingfisher
+Clown Goby,Kingfisher
+Other Demersal Fishes,Kingfisher
+Herbivorous Shrimp,Crocodiles
+Predatory Shrimp,Crocodiles
+Pink Shrimp,Crocodiles
+Lobster,Crocodiles
+Detritivorous Crabs,Crocodiles
+Omnivorous Crabs,Crocodiles
+Callinectus sapidus,Crocodiles
+Tarpon,Crocodiles
+Lizardfish,Crocodiles
+Catfish,Crocodiles
+Eels,Crocodiles
+Toadfish,Crocodiles
+Brotalus,Crocodiles
+Halfbeaks,Crocodiles
+Needlefish,Crocodiles
+Snook,Crocodiles
+Jacks,Crocodiles
+Pompano,Crocodiles
+Other Snapper,Crocodiles
+Gray Snapper,Crocodiles
+Mojarra,Crocodiles
+Grunt,Crocodiles
+Pinfish,Crocodiles
+Scianids,Crocodiles
+Spotted Seatrout,Crocodiles
+Red Drum,Crocodiles
+Spadefish,Crocodiles
+Parrotfish,Crocodiles
+Mullet,Crocodiles
+Barracuda,Crocodiles
+Flatfish,Crocodiles
+Filefishes,Crocodiles
+Puffer,Crocodiles
+Other Pelagic Fishes,Crocodiles
+Other Demersal Fishes,Crocodiles
+Big Herons & Egrets,Crocodiles
+Small Herons & Egrets,Crocodiles
+Loggerhead Turtle,Crocodiles
+Green Turtle,Crocodiles
+Sponges,Loggerhead Turtle
+Other Cnidaridae,Loggerhead Turtle
+Echinoderma,Loggerhead Turtle
+Bivalves,Loggerhead Turtle
+Detritivorous Gastropods,Loggerhead Turtle
+Epiphytic Gastropods,Loggerhead Turtle
+Predatory Gastropods,Loggerhead Turtle
+Detritivorous Polychaetes,Loggerhead Turtle
+Predatory Polychaetes,Loggerhead Turtle
+Suspension Feeding Polych,Loggerhead Turtle
+Herbivorous Shrimp,Loggerhead Turtle
+Predatory Shrimp,Loggerhead Turtle
+Pink Shrimp,Loggerhead Turtle
+Lobster,Loggerhead Turtle
+Detritivorous Crabs,Loggerhead Turtle
+Omnivorous Crabs,Loggerhead Turtle
+Callinectus sapidus,Loggerhead Turtle
+Goldspotted killifish,Loggerhead Turtle
+Rainwater killifish,Loggerhead Turtle
+Mojarra,Loggerhead Turtle
+Code Goby,Loggerhead Turtle
+Thalassia,Green Turtle
+Epiphytes,Green Turtle
+Sponges,Hawksbill Turtle
+Other Cnidaridae,Hawksbill Turtle
+Echinoderma,Hawksbill Turtle
+Bivalves,Hawksbill Turtle
+Detritivorous Gastropods,Hawksbill Turtle
+Detritivorous Polychaetes,Hawksbill Turtle
+Predatory Polychaetes,Hawksbill Turtle
+Suspension Feeding Polych,Hawksbill Turtle
+Herbivorous Shrimp,Hawksbill Turtle
+Predatory Shrimp,Hawksbill Turtle
+Pink Shrimp,Hawksbill Turtle
+Lobster,Hawksbill Turtle
+Detritivorous Crabs,Hawksbill Turtle
+Omnivorous Crabs,Hawksbill Turtle
+Callinectus sapidus,Hawksbill Turtle
+Bivalves,Dolphin
+Herbivorous Shrimp,Dolphin
+Predatory Shrimp,Dolphin
+Pink Shrimp,Dolphin
+Sardines,Dolphin
+Bay Anchovy,Dolphin
+Catfish,Dolphin
+Eels,Dolphin
+Toadfish,Dolphin
+Needlefish,Dolphin
+Goldspotted killifish,Dolphin
+Rainwater killifish,Dolphin
+Snook,Dolphin
+Silverside,Dolphin
+Other Horsefish,Dolphin
+Gulf Pipefish,Dolphin
+Jacks,Dolphin
+Other Snapper,Dolphin
+Mojarra,Dolphin
+Grunt,Dolphin
+Pinfish,Dolphin
+Scianids,Dolphin
+Spotted Seatrout,Dolphin
+Spadefish,Dolphin
+Parrotfish,Dolphin
+Mullet,Dolphin
+Barracuda,Dolphin
+Blennies,Dolphin
+Code Goby,Dolphin
+Flatfish,Dolphin
+Filefishes,Dolphin
+Puffer,Dolphin
+Other Pelagic Fishes,Dolphin
+Other Demersal Fishes,Dolphin
+Thalassia,Manatee
+Halodule,Manatee
+Syringodium,Manatee
+Epiphytes,Manatee
+Sponges,Manatee
+Echinoderma,Manatee
+Bivalves,Manatee
+Detritivorous Gastropods,Manatee
+Detritivorous Polychaetes,Manatee
+Predatory Polychaetes,Manatee
+Suspension Feeding Polych,Manatee
+Macrobenthos,Manatee
+Detritivorous Amphipods,Manatee
+Herbivorous Amphipods,Manatee
+Isopods,Manatee
+Herbivorous Shrimp,Manatee
+Predatory Shrimp,Manatee
+Pink Shrimp,Manatee
+Omnivorous Crabs,Manatee
+Thalassia,Water POC
+Halodule,Water POC
+Syringodium,Water POC
+Drift Algae,Water POC
+Epiphytes,Water POC
+Free Bacteria,Water POC
+Water Flagellates,Water POC
+Water Cilitaes,Water POC
+Acartia Tonsa,Water POC
+Oithona nana,Water POC
+Paracalanus,Water POC
+Other Copepoda,Water POC
+Meroplankton,Water POC
+Other Zooplankton,Water POC
+Sponges,Water POC
+Herbivorous Shrimp,Water POC
+Thor Floridanus,Water POC
+Sharks,Water POC
+Rays,Water POC
+Tarpon,Water POC
+Bonefish,Water POC
+Sardines,Water POC
+Anchovy,Water POC
+Bay Anchovy,Water POC
+Lizardfish,Water POC
+Catfish,Water POC
+Halfbeaks,Water POC
+Needlefish,Water POC
+Other Killifish,Water POC
+Goldspotted killifish,Water POC
+Rainwater killifish,Water POC
+Snook,Water POC
+Sailfin Molly,Water POC
+Silverside,Water POC
+Other Horsefish,Water POC
+Gulf Pipefish,Water POC
+Dwarf Seahorse,Water POC
+Grouper,Water POC
+Jacks,Water POC
+Pompano,Water POC
+Other Snapper,Water POC
+Gray Snapper,Water POC
+Mojarra,Water POC
+Grunt,Water POC
+Porgy,Water POC
+Pinfish,Water POC
+Scianids,Water POC
+Spotted Seatrout,Water POC
+Red Drum,Water POC
+Spadefish,Water POC
+Parrotfish,Water POC
+Mackerel,Water POC
+Mullet,Water POC
+Barracuda,Water POC
+Blennies,Water POC
+Code Goby,Water POC
+Clown Goby,Water POC
+Flatfish,Water POC
+Filefishes,Water POC
+Puffer,Water POC
+Other Pelagic Fishes,Water POC
+Other Demersal Fishes,Water POC
+Loon,Water POC
+Greeb,Water POC
+Pelican,Water POC
+Comorant,Water POC
+Big Herons & Egrets,Water POC
+Small Herons & Egrets,Water POC
+Ibis,Water POC
+Roseate Spoonbill,Water POC
+Herbivorous Ducks,Water POC
+Omnivorous Ducks,Water POC
+Predatory Ducks,Water POC
+Raptors,Water POC
+Gruiformes,Water POC
+Small Shorebirds,Water POC
+Gulls & Terns,Water POC
+Kingfisher,Water POC
+Crocodiles,Water POC
+Loggerhead Turtle,Water POC
+Green Turtle,Water POC
+Hawksbill Turtle,Water POC
+Dolphin,Water POC
+Manatee,Water POC
+Benthic Phytoplankton,Benthic POC
+Thalassia,Benthic POC
+Halodule,Benthic POC
+Syringodium,Benthic POC
+Roots,Benthic POC
+Drift Algae,Benthic POC
+Epiphytes,Benthic POC
+Benthic Flagellates,Benthic POC
+Benthic Ciliates,Benthic POC
+Meiofauna,Benthic POC
+Coral,Benthic POC
+Other Cnidaridae,Benthic POC
+Echinoderma,Benthic POC
+Bivalves,Benthic POC
+Detritivorous Gastropods,Benthic POC
+Epiphytic Gastropods,Benthic POC
+Predatory Gastropods,Benthic POC
+Detritivorous Polychaetes,Benthic POC
+Predatory Polychaetes,Benthic POC
+Suspension Feeding Polych,Benthic POC
+Macrobenthos,Benthic POC
+Benthic Crustaceans,Benthic POC
+Detritivorous Amphipods,Benthic POC
+Herbivorous Amphipods,Benthic POC
+Isopods,Benthic POC
+Predatory Shrimp,Benthic POC
+Pink Shrimp,Benthic POC
+Lobster,Benthic POC
+Detritivorous Crabs,Benthic POC
+Omnivorous Crabs,Benthic POC
+Predatory Crabs,Benthic POC
+Callinectus sapidus,Benthic POC
+Stone Crab,Benthic POC
+Rays,Benthic POC
+Eels,Benthic POC
+Toadfish,Benthic POC
+Brotalus,Benthic POC
+Mojarra,Benthic POC
+Mullet,Benthic POC
+Code Goby,Benthic POC
+Clown Goby,Benthic POC
+Flatfish,Benthic POC
+Other Demersal Fishes,Benthic POC
+Water POC,Benthic POC
+2um Spherical Phytoplankt,DOC
+Synedococcus,DOC
+Oscillatoria,DOC
+Small Diatoms (<20um),DOC
+Big Diatoms (>20um),DOC
+Dinoflagellates,DOC
+Other Phytoplankton,DOC
+Thalassia,DOC
+Halodule,DOC
+Syringodium,DOC
+Drift Algae,DOC
+Epiphytes,DOC
